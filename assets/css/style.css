@@ -84,7 +84,7 @@ html {
   height: 18.75rem; }
 
 .h-img-obra {
-  height: 18rem; }
+  height: 15rem; }
 
 .h-map {
   height: 22rem; }
@@ -161,6 +161,8 @@ html {
     width: auto; }
   .h-lg-auto {
     height: auto; }
+  .h-lg-img-obra {
+    height: 18rem; }
   .bg-lg-transparent {
     background-color: transparent; }
   .btn-hover-lg-1:hover {
