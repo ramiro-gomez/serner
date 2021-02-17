@@ -1,0 +1,197 @@
+$filter-gray: rgba(69, 69, 69, 0.4);
+
+html {
+    scroll-behavior: smooth;
+}
+
+.filter-gray {
+    background-color: $filter-gray;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-blue-1 {
+    background-color: #3282b8;
+}
+.bg-blue-2 {
+    background-color: #0F4C75;
+}
+.bg-blue-3 {
+    background-color: #112D4E;
+}
+.bg-blue-4 {
+    background-color: #1B262C;
+}
+
+
+.color-white {
+    color: white ;
+}
+.btn-active {
+    color: #3E96FE;
+}
+.btn-hover-1:hover {
+    color: #3E96FE;
+    background-color: #0056b34d;
+}
+
+
+.bg-size-cover {
+    background-size: cover;
+}
+.bg-position-center {
+    background-position: center;
+}
+.object-fit-cover {
+    object-fit: cover;
+}
+.w-fit-content {
+    width: fit-content;
+}
+.visibility-hidden {
+    visibility: hidden;
+}
+.opacity-0 {
+    opacity: 0;
+}
+
+.top-0 {
+    top: 0;
+}
+.right-0 {
+    right: 0;
+}
+.left-0 {
+    left: 0;
+}
+.bottom-0 {
+    bottom: 0;
+}
+.left-nav {
+    left: -9.5rem;
+}
+
+
+.transition-link {
+    transition: all .5s ease 0s;
+}
+.transition-nav {
+    transition: left .4s ease .2s;
+}
+.transition-aside-label {
+    transition: opacity .3s ease;
+}
+
+
+.h-header {
+    height: 3.9rem;
+}
+.h-banner {
+    height: 40rem;
+}
+.h-preview-obra {
+    height: 12rem;
+}
+.h-img-empresa {
+    height: 18.75rem;
+}
+.h-img-obra {
+    height: 18rem;
+}
+.h-map {
+    height: 22rem;
+}
+.h-text-area {
+    height: 12rem!important;
+}
+.w-logo {
+    width: 17.5rem;
+}
+.w-maquinaria-img {
+    width: 18.75rem;
+}
+.equipo-img-size {
+    width: 20rem; height: 15rem;
+}
+
+
+.font-size-1 {
+    font-size: 1.2rem;
+}
+.font-size-2 {
+    font-size: 1.45rem;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.px-6 {
+    padding-left: 2.3rem; padding-right: 2.3rem;
+}
+.py-6 {
+    padding-top: 6rem; padding-bottom: 6rem;
+}
+
+
+.home-bg-banner-1 {
+    background-image: linear-gradient(to top, hsla(0, 0%, 27%, 0.1) 0%,hsla(0, 0%, 27%, 0.1) 100%), url(../../media/home-banner-1.jpg);
+}
+.home-bg-banner-2 {
+    background-image: linear-gradient(to top, $filter-gray, $filter-gray 100%), url(../../media/home-banner-2.jpg);
+}
+.home-bg-banner-3 {
+    background-image: linear-gradient(to top, $filter-gray, $filter-gray 100%), url(../../media/home-banner-3.jpg);
+}
+.equipo-bg-banner {
+    background-image: url(../../media/equipoBanner.jpg);
+}
+
+
+#btnMenu:checked ~ #nav {
+    left: 0;
+}
+#btnMenu:checked ~ #label-aside {
+    display: block !important; opacity: 1;
+}
+#btnMenu:checked ~ #label-x {
+    display: block;
+}
+
+
+.counter::before{
+    content: "+";
+}
+
+.anchor {
+    height: 3.9rem; margin-top: -3.9rem;
+}
+
+.overlay {
+    transition: .5s ease;
+}
+.overlay-container:hover .overlay {
+    opacity: 1;
+}
+
+@media (min-width: 992px) {
+    .position-lg-unset {
+        position: unset !important;
+    }
+    .w-lg-auto {
+        width: auto;
+    }
+    .h-lg-auto {
+        height: auto;
+    }
+    .bg-lg-transparent {
+        background-color: transparent;
+    }
+    .btn-hover-lg-1:hover {
+        color: #3E96FE; background-color: transparent;
+    }
+    .ml-lg-6 {
+        margin-left: 5rem !important;
+    }
+    .mx-lg-6 {
+        margin-left: 2.4rem!important; margin-right: 2.4rem!important;
+    }
+}
