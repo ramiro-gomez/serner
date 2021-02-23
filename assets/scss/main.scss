@@ -1,4 +1,5 @@
 $filter-gray: rgba(69, 69, 69, 0.4);
+$h-header: 3.9rem;
 
 html {
     scroll-behavior: smooth;
@@ -70,6 +71,12 @@ html {
 .left-nav {
     left: -9.5rem;
 }
+.bottom-btn {
+    bottom: 15%;
+}
+.bottom-btn-1 {
+    bottom: 6rem;
+}
 
 
 .transition-link {
@@ -81,10 +88,13 @@ html {
 .transition-aside-label {
     transition: opacity .3s ease;
 }
+.transition-scale {
+    transition: transform .8s ease;
+}
 
 
 .h-header {
-    height: 3.9rem;
+    height: $h-header;
 }
 .h-banner {
     height: 40rem;
@@ -121,6 +131,9 @@ html {
 .font-size-2 {
     font-size: 1.45rem;
 }
+.font-size-3 {
+    font-size: 1.1rem;
+}
 .font-weight-600 {
     font-weight: 600;
 }
@@ -129,6 +142,9 @@ html {
 }
 .py-6 {
     padding-top: 6rem; padding-bottom: 6rem;
+}
+.border-2 {
+    border: 2px solid;
 }
 
 
@@ -156,13 +172,12 @@ html {
     display: block;
 }
 
-
 .counter::before{
     content: "+";
 }
 
 .anchor {
-    height: 3.9rem; margin-top: -3.9rem;
+    height: $h-header; margin-top: -$h-header;
 }
 
 .overlay {
@@ -170,6 +185,9 @@ html {
 }
 .overlay-container:hover .overlay {
     opacity: 1;
+}
+.scale-img-hover:hover img {
+    transform: scale(1.1, 1.1);
 }
 
 @media (min-width: 992px) {

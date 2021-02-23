@@ -62,6 +62,12 @@ html {
 .left-nav {
   left: -9.5rem; }
 
+.bottom-btn {
+  bottom: 15%; }
+
+.bottom-btn-1 {
+  bottom: 6rem; }
+
 .transition-link {
   transition: all .5s ease 0s; }
 
@@ -70,6 +76,9 @@ html {
 
 .transition-aside-label {
   transition: opacity .3s ease; }
+
+.transition-scale {
+  transition: transform .8s ease; }
 
 .h-header {
   height: 3.9rem; }
@@ -108,6 +117,9 @@ html {
 .font-size-2 {
   font-size: 1.45rem; }
 
+.font-size-3 {
+  font-size: 1.1rem; }
+
 .font-weight-600 {
   font-weight: 600; }
 
@@ -118,6 +130,9 @@ html {
 .py-6 {
   padding-top: 6rem;
   padding-bottom: 6rem; }
+
+.border-2 {
+  border: 2px solid; }
 
 .home-bg-banner-1 {
   background-image: linear-gradient(to top, rgba(69, 69, 69, 0.1) 0%, rgba(69, 69, 69, 0.1) 100%), url(../../media/home-banner-1.jpg); }
@@ -153,6 +168,9 @@ html {
 
 .overlay-container:hover .overlay {
   opacity: 1; }
+
+.scale-img-hover:hover img {
+  transform: scale(1.1, 1.1); }
 
 @media (min-width: 992px) {
   .position-lg-unset {
