@@ -81,10 +81,10 @@ html {
   transition: transform .8s ease; }
 
 .h-header {
-  height: 3.9rem; }
+  height: 3.5rem; }
 
 .h-banner {
-  height: 40rem; }
+  height: 37rem; }
 
 .h-preview-obra {
   height: 12rem; }
@@ -102,6 +102,9 @@ html {
   height: 12rem !important; }
 
 .w-logo {
+  width: 15.5rem; }
+
+.w-logo-2 {
   width: 17.5rem; }
 
 .w-maquinaria-img {
@@ -160,8 +163,8 @@ html {
   content: "+"; }
 
 .anchor {
-  height: 3.9rem;
-  margin-top: -3.9rem; }
+  height: 3.5rem;
+  margin-top: -3.5rem; }
 
 .overlay {
   transition: .5s ease; }

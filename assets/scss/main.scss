@@ -1,5 +1,5 @@
 $filter-gray: rgba(69, 69, 69, 0.4);
-$h-header: 3.9rem;
+$h-header: 3.5rem;
 
 html {
     scroll-behavior: smooth;
@@ -97,7 +97,7 @@ html {
     height: $h-header;
 }
 .h-banner {
-    height: 40rem;
+    height: 37rem;
 }
 .h-preview-obra {
     height: 12rem;
@@ -115,6 +115,9 @@ html {
     height: 12rem!important;
 }
 .w-logo {
+    width: 15.5rem;
+}
+.w-logo-2 {
     width: 17.5rem;
 }
 .w-maquinaria-img {
