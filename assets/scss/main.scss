@@ -24,23 +24,24 @@ html {
     background-color: #1B262C;
 }
 
+
 .color-white {
     color: white ;
 }
-.btn-active {
+.menu-link-active {
     color: #3E96FE;
 }
-.btn-hover-1:hover {
+.menu-link-hover:hover {
     color: #3E96FE;
     background-color: #0056b34d;
 }
 .btn-blue {
-    color: #fff;
+    color: white;
     background-color: #134f94;
     border-color: #134f94;
 }
 .btn-blue:hover {
-    color: #fff;
+    color: white;
     background-color: #2773ca;
     border-color: #2773ca;
 }
@@ -50,10 +51,35 @@ html {
     background-color: #2773ca0d;
 }
 .btn-outline-blue:hover {
-    color: #fff;
+    color: white;
     background-color: #2773ca;
 }
 
+
+.font-size-1 {
+    font-size: 1.25rem;
+}
+.font-size-2 {
+    font-size: 1.45rem;
+}
+.font-size-3 {
+    font-size: 1.1rem;
+}
+.font-size-4 {
+    font-size: 3rem;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.px-6 {
+    padding-left: 2.3rem; padding-right: 2.3rem;
+}
+.py-6 {
+    padding-top: 6rem; padding-bottom: 6rem;
+}
+.border-2 {
+    border: 2px solid;
+}
 
 .bg-size-cover {
     background-size: cover;
@@ -143,28 +169,6 @@ html {
 }
 .equipo-img-size {
     width: 20rem; height: 15rem;
-}
-
-.font-size-1 {
-    font-size: 1.2rem;
-}
-.font-size-2 {
-    font-size: 1.45rem;
-}
-.font-size-3 {
-    font-size: 1.1rem;
-}
-.font-weight-600 {
-    font-weight: 600;
-}
-.px-6 {
-    padding-left: 2.3rem; padding-right: 2.3rem;
-}
-.py-6 {
-    padding-top: 6rem; padding-bottom: 6rem;
-}
-.border-2 {
-    border: 2px solid;
 }
 
 
