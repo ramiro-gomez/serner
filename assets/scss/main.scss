@@ -24,7 +24,6 @@ html {
     background-color: #1B262C;
 }
 
-
 .color-white {
     color: white ;
 }
@@ -34,6 +33,25 @@ html {
 .btn-hover-1:hover {
     color: #3E96FE;
     background-color: #0056b34d;
+}
+.btn-blue {
+    color: #fff;
+    background-color: #134f94;
+    border-color: #134f94;
+}
+.btn-blue:hover {
+    color: #fff;
+    background-color: #2773ca;
+    border-color: #2773ca;
+}
+.btn-outline-blue {
+    color: #2773ca;
+    border-color: #2773ca;
+    background-color: #2773ca0d;
+}
+.btn-outline-blue:hover {
+    color: #fff;
+    background-color: #2773ca;
 }
 
 
@@ -79,9 +97,6 @@ html {
 }
 
 
-.transition-link {
-    transition: all .5s ease 0s;
-}
 .transition-nav {
     transition: left .4s ease .2s;
 }
@@ -120,13 +135,15 @@ html {
 .w-logo-2 {
     width: 17.5rem;
 }
+.w-btn {
+    width: 10.25rem;
+}
 .w-maquinaria-img {
     width: 18.75rem;
 }
 .equipo-img-size {
     width: 20rem; height: 15rem;
 }
-
 
 .font-size-1 {
     font-size: 1.2rem;

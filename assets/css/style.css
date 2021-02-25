@@ -29,6 +29,25 @@ html {
   color: #3E96FE;
   background-color: #0056b34d; }
 
+.btn-blue {
+  color: #fff;
+  background-color: #134f94;
+  border-color: #134f94; }
+
+.btn-blue:hover {
+  color: #fff;
+  background-color: #2773ca;
+  border-color: #2773ca; }
+
+.btn-outline-blue {
+  color: #2773ca;
+  border-color: #2773ca;
+  background-color: #2773ca0d; }
+
+.btn-outline-blue:hover {
+  color: #fff;
+  background-color: #2773ca; }
+
 .bg-size-cover {
   background-size: cover; }
 
@@ -68,9 +87,6 @@ html {
 .bottom-btn-1 {
   bottom: 6rem; }
 
-.transition-link {
-  transition: all .5s ease 0s; }
-
 .transition-nav {
   transition: left .4s ease .2s; }
 
@@ -106,6 +122,9 @@ html {
 
 .w-logo-2 {
   width: 17.5rem; }
+
+.w-btn {
+  width: 10.25rem; }
 
 .w-maquinaria-img {
   width: 18.75rem; }
