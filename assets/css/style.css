@@ -105,7 +105,7 @@ html {
   bottom: 0; }
 
 .left-nav {
-  left: -9.5rem; }
+  left: -9.6rem; }
 
 .bottom-btn {
   bottom: 15%; }
@@ -212,7 +212,4 @@ html {
     color: #3E96FE;
     background-color: transparent; }
   .ml-lg-6 {
-    margin-left: 5rem !important; }
-  .mx-lg-6 {
-    margin-left: 2.4rem !important;
-    margin-right: 2.4rem !important; } }
+    margin-left: 5rem; } }
