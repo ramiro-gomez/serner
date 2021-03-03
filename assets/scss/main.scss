@@ -85,6 +85,9 @@ html {
 .px-6 {
     padding-left: 2.3rem; padding-right: 2.3rem;
 }
+.px-7 {
+    padding-left: .75rem; padding-right: .75rem;
+}
 .py-6 {
     padding-top: 6rem; padding-bottom: 6rem;
 }
@@ -103,6 +106,9 @@ html {
 }
 .w-fit-content {
     width: fit-content;
+}
+.w-90 {
+    width: 90%;
 }
 .visibility-hidden {
     visibility: hidden;
@@ -151,6 +157,9 @@ html {
 .h-banner {
     height: 37rem;
 }
+.h-banner-2 {
+    height: 30rem;
+}
 .h-preview-obra {
     height: 12rem;
 }
@@ -158,7 +167,7 @@ html {
     height: 18.75rem;
 }
 .h-img-obra {
-    height: 15rem;
+    height: 18rem;
 }
 .h-map {
     height: 22rem;
@@ -195,8 +204,17 @@ html {
 .home-bg-banner-3 {
     background-image: linear-gradient(to top, $filter-gray-1, $filter-gray-1 100%), url(../../media/home-banner-3.jpg);
 }
+.empresa-bg-banner {
+    background-image: url(../../media/empresa-banner.jpg);
+}
 .equipo-bg-banner {
-    background-image: url(../../media/equipoBanner.jpg);
+    background-image: url(../../media/equipo-banner.jpg);
+}
+.obras-bg-banner {
+    background-image: url(../../media/obras-banner.jpg);
+}
+.contacto-bg-banner {
+    background-image: url(../../media/contacto-banner.jpg);
 }
 
 
