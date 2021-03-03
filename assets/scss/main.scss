@@ -1,12 +1,20 @@
-$filter-gray: rgba(69, 69, 69, 0.4);
+$filter-gray-1: rgba(69, 69, 69, 0.4);
+$filter-gray-2: rgba(69, 69, 69, 0.1);
 $h-header: 3.5rem;
+$w-nav: 12.5rem;
+$bs-breakpoints: (
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
 
 html {
     scroll-behavior: smooth;
 }
 
 .filter-gray {
-    background-color: $filter-gray;
+    background-color: $filter-gray-1;
 }
 .bg-black {
     background-color: black;
@@ -35,26 +43,26 @@ html {
     color: #3E96FE;
     background-color: #0056b34d;
 }
+
 .btn-blue {
     color: white;
     background-color: #134f94;
     border-color: #134f94;
-}
-.btn-blue:hover {
-    color: white;
-    background-color: #2773ca;
-    border-color: #2773ca;
+    &:hover {
+        color: white;
+        background-color: #2773ca;
+        border-color: #2773ca;
+    }
 }
 .btn-outline-blue {
     color: #2773ca;
     border-color: #2773ca;
     background-color: #2773ca0d;
+    &:hover {
+        color: white;
+        background-color: #2773ca;
+    }
 }
-.btn-outline-blue:hover {
-    color: white;
-    background-color: #2773ca;
-}
-
 
 .font-size-1 {
     font-size: 1.25rem;
@@ -67,6 +75,9 @@ html {
 }
 .font-size-4 {
     font-size: 3rem;
+}
+.font-size-5 {
+    font-size: 1.05rem;
 }
 .font-weight-600 {
     font-weight: 600;
@@ -113,7 +124,7 @@ html {
     bottom: 0;
 }
 .left-nav {
-    left: -9.6rem;
+    left: -$w-nav;
 }
 .bottom-btn {
     bottom: 15%;
@@ -155,11 +166,14 @@ html {
 .h-text-area {
     height: 12rem!important;
 }
+.w-nav {
+    width: $w-nav;
+}
 .w-logo {
     width: 15.5rem;
 }
 .w-logo-2 {
-    width: 17.5rem;
+    width: 17rem;
 }
 .w-btn {
     width: 10.25rem;
@@ -173,13 +187,13 @@ html {
 
 
 .home-bg-banner-1 {
-    background-image: linear-gradient(to top, hsla(0, 0%, 27%, 0.1) 0%,hsla(0, 0%, 27%, 0.1) 100%), url(../../media/home-banner-1.jpg);
+    background-image: linear-gradient(to top, $filter-gray-2, $filter-gray-2 100%), url(../../media/home-banner-1.jpg);
 }
 .home-bg-banner-2 {
-    background-image: linear-gradient(to top, $filter-gray, $filter-gray 100%), url(../../media/home-banner-2.jpg);
+    background-image: linear-gradient(to top, $filter-gray-1, $filter-gray-1 100%), url(../../media/home-banner-2.jpg);
 }
 .home-bg-banner-3 {
-    background-image: linear-gradient(to top, $filter-gray, $filter-gray 100%), url(../../media/home-banner-3.jpg);
+    background-image: linear-gradient(to top, $filter-gray-1, $filter-gray-1 100%), url(../../media/home-banner-3.jpg);
 }
 .equipo-bg-banner {
     background-image: url(../../media/equipoBanner.jpg);
@@ -214,7 +228,7 @@ html {
     transform: scale(1.1, 1.1);
 }
 
-@media (min-width: 992px) {
+@media (min-width: map-get($bs-breakpoints, lg)) {
     .position-lg-unset {
         position: unset !important;
     }

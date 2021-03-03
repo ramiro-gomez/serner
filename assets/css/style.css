@@ -33,20 +33,18 @@ html {
   color: white;
   background-color: #134f94;
   border-color: #134f94; }
-
-.btn-blue:hover {
-  color: white;
-  background-color: #2773ca;
-  border-color: #2773ca; }
+  .btn-blue:hover {
+    color: white;
+    background-color: #2773ca;
+    border-color: #2773ca; }
 
 .btn-outline-blue {
   color: #2773ca;
   border-color: #2773ca;
   background-color: #2773ca0d; }
-
-.btn-outline-blue:hover {
-  color: white;
-  background-color: #2773ca; }
+  .btn-outline-blue:hover {
+    color: white;
+    background-color: #2773ca; }
 
 .font-size-1 {
   font-size: 1.25rem; }
@@ -59,6 +57,9 @@ html {
 
 .font-size-4 {
   font-size: 3rem; }
+
+.font-size-5 {
+  font-size: 1.05rem; }
 
 .font-weight-600 {
   font-weight: 600; }
@@ -105,7 +106,7 @@ html {
   bottom: 0; }
 
 .left-nav {
-  left: -9.6rem; }
+  left: -12.5rem; }
 
 .bottom-btn {
   bottom: 15%; }
@@ -143,11 +144,14 @@ html {
 .h-text-area {
   height: 12rem !important; }
 
+.w-nav {
+  width: 12.5rem; }
+
 .w-logo {
   width: 15.5rem; }
 
 .w-logo-2 {
-  width: 17.5rem; }
+  width: 17rem; }
 
 .w-btn {
   width: 10.25rem; }
@@ -160,7 +164,7 @@ html {
   height: 15rem; }
 
 .home-bg-banner-1 {
-  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.1) 0%, rgba(69, 69, 69, 0.1) 100%), url(../../media/home-banner-1.jpg); }
+  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.1), rgba(69, 69, 69, 0.1) 100%), url(../../media/home-banner-1.jpg); }
 
 .home-bg-banner-2 {
   background-image: linear-gradient(to top, rgba(69, 69, 69, 0.4), rgba(69, 69, 69, 0.4) 100%), url(../../media/home-banner-2.jpg); }
