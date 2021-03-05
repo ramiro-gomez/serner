@@ -186,22 +186,22 @@ html {
   background-image: linear-gradient(to top, rgba(69, 69, 69, 0.15), rgba(69, 69, 69, 0.15) 100%), url(../../media/empresa-banner.jpg); }
 
 .bg-banner-equipo {
-  background-image: url(../../media/equipo-banner.jpg); }
+  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.1), rgba(69, 69, 69, 0.1) 100%), url(../../media/equipo-banner.jpg); }
 
 .bg-banner-obras {
   background-image: url(../../media/obras-banner.jpg); }
 
 .bg-banner-contacto {
-  background-image: url(../../media/contacto-banner.jpg); }
+  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.15), rgba(69, 69, 69, 0.15) 100%), url(../../media/contacto-banner.jpg); }
 
 .bg-img-mision {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) 100%), url(../../media/mision-img.jpg); }
+  background-image: linear-gradient(to top, rgba(27, 38, 44, 0.5), rgba(27, 38, 44, 0.5) 100%), url(../../media/mision-img.jpg); }
 
 .bg-img-vision {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) 100%), url(../../media/vision-img.jpg); }
+  background-image: linear-gradient(to top, rgba(27, 38, 44, 0.5), rgba(27, 38, 44, 0.5) 100%), url(../../media/vision-img.jpg); }
 
 .bg-img-valores {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) 100%), url(../../media/valores-img.jpg); }
+  background-image: linear-gradient(to top, rgba(27, 38, 44, 0.5), rgba(27, 38, 44, 0.5) 100%), url(../../media/valores-img.jpg); }
 
 #btnMenu:checked ~ #nav {
   left: 0; }

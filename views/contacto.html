@@ -44,62 +44,64 @@
             <h1 class="text-white">Contacto</h1>
         </div>
 
-        <div class="row w-90 no-gutters mx-auto mt-4 mb-3">
-            <!--            Contacto            -->
-            <div class="col-12 col-md-6 pb-md-0 pr-md-3">
-                <div class="d-flex font-size-1">
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <h4>Datos de contacto</h4>
-                            <div class="mb-2">
-                                <i class="far fa-envelope d-inline"></i>
-                                <p class="d-inline">info@serner.com.ar</p>
+        <div class="container">
+            <div class="row mt-4 mb-3 p-0">
+                <!--            Contacto            -->
+                <div class="col-12 col-md-6 pb-md-0 pr-md-3">
+                    <div class="d-flex font-size-1">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h4>Datos de contacto</h4>
+                                <div class="mb-2">
+                                    <i class="far fa-envelope d-inline"></i>
+                                    <p class="d-inline">info@serner.com.ar</p>
+                                </div>
+                                <div class="mb-2">
+                                    <i class="fas fa-phone-alt d-inline"></i>
+                                    <p class="d-inline">+54 (011) 6689-8678</p>
+                                </div>
+                                <p>Lunes a Viernes: 8 a 19 hs</p>
                             </div>
-                            <div class="mb-2">
-                                <i class="fas fa-phone-alt d-inline"></i>
-                                <p class="d-inline">+54 (011) 6689-8678</p>
-                            </div>
-                            <p>Lunes a Viernes: 8 a 19 hs</p>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <h4>Nuestra oficina principal</h4>
-                            <div class="mb-2">
-                                <i class="fas fa-map-marker-alt d-inline"></i>
-                                <p class="d-inline">Ciudad de la Paz 3435, CABA, Buenos Aires, Argentina</p>
+                            <div class="col-12 col-md-6">
+                                <h4>Nuestra oficina principal</h4>
+                                <div class="mb-2">
+                                    <i class="fas fa-map-marker-alt d-inline"></i>
+                                    <p class="d-inline">Ciudad de la Paz 3435, CABA, Buenos Aires, Argentina</p>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1643.0492611172735!2d-58.469129241980056!3d-34.55106079511831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb69c99d0367d%3A0x90827023b15108fc!2sCdad.%20de%20La%20Paz%203435%2C%20C1429%20ACK%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1613227365309!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
-                <iframe class="w-100 h-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1643.0492611172735!2d-58.469129241980056!3d-34.55106079511831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb69c99d0367d%3A0x90827023b15108fc!2sCdad.%20de%20La%20Paz%203435%2C%20C1429%20ACK%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1613227365309!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                
+                <!--            Consultas            -->
+                <form class="col-12 col-md-6 pl-md-3 d-flex flex-column">
+                    <span class="anchor d-block visibility-hidden" id="consultas"></span>
+                    <h4>Consultas</h4>
+                    <p class="font-size-1">Podes hacernos cualquier consulta a traves de nuestro numero de telefono, mail o completando este formulario</p>
+                    <div class="row no-gutters">
+                        <div class="col-12 mb-3 col-lg-6 pr-lg-2 font-size-1">
+                            <input class="w-100 font-size-1 form-control" type="text" name="nombre" placeholder="Nombre *">
+                        </div>
+                        <div class="col-12 mb-3 col-lg-6 pl-lg-2">
+                            <input class="w-100 font-size-1 form-control" type="text" name="apellido" placeholder="Apellido *">
+                        </div>
+                        <div class="col-12 mb-3 col-lg-6 pr-lg-2">
+                            <input class="w-100 font-size-1 form-control" type="text" name="email" placeholder="Email *">
+                        </div>
+                        <div class="col-12 mb-3 col-lg-6 pl-lg-2">
+                            <input class="w-100 font-size-1 form-control" type="text" name="telefono" placeholder="Telefono *">
+                        </div>
+                    </div>
+                    <input class="w-100 font-size-1 mb-3 form-control" type="text" name="asunto" placeholder="Asunto *">
+                    <textarea class="w-100 flex-grow-1 font-size-1 mb-3 form-control" name="consultaArea" id="consultaArea" placeholder="Escriba su consulta"></textarea>
+                    <input class="btn btn-outline-primary btn-block font-size-1" type="submit" value="Enviar">
+                </form>
             </div>
-            
-            <!--            Consultas            -->
-            <form class="col-12 col-md-6 pl-md-3">
-                <span class="anchor d-block visibility-hidden" id="consultas"></span>
-                <h4>Consultas</h4>
-                <p class="font-size-1">Podes hacernos cualquier consulta a traves de nuestro numero de telefono, mail o completando este formulario</p>
-                <div class="row no-gutters">
-                    <div class="col-12 mb-3 col-lg-6 pr-lg-2 font-size-1">
-                        <input class="w-100 font-size-1 form-control" type="text" name="nombre" placeholder="Nombre *">
-                    </div>
-                    <div class="col-12 mb-3 col-lg-6 pl-lg-2">
-                        <input class="w-100 font-size-1 form-control" type="text" name="apellido" placeholder="Apellido *">
-                    </div>
-                    <div class="col-12 mb-3 col-lg-6 pr-lg-2">
-                        <input class="w-100 font-size-1 form-control" type="text" name="email" placeholder="Email *">
-                    </div>
-                    <div class="col-12 mb-3 col-lg-6 pl-lg-2">
-                        <input class="w-100 font-size-1 form-control" type="text" name="telefono" placeholder="Telefono *">
-                    </div>
-                </div>
-                <input class="w-100 font-size-1 mb-3 form-control" type="text" name="asunto" placeholder="Asunto *">
-                <textarea name="consultaArea" class="w-100 h-text-area font-size-1 mb-3 form-control" id="consultaArea" placeholder="Escriba su consulta"></textarea>
-                <input class="btn btn-outline-primary btn-block font-size-1" type="submit" value="Enviar">
-            </form>
         </div>
 
         <!--            Empleos            -->
-        <div class="w-90 no-gutters mx-auto mb-4">
+        <div class="container mb-4">
             <span class="anchor d-block visibility-hidden" id="empleos"></span>
             <h4>Empleos</h4>
             <p class="font-size-1">Para aplicar a un puesto en Serner, envíanos tu CV y carta de presentacion a info@serner.com.ar</p>

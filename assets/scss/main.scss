@@ -1,7 +1,7 @@
 $filter-gray-1: rgba(69, 69, 69, 0.4);
 $filter-gray-2: rgba(69, 69, 69, 0.1);
 $filter-gray-3: rgba(69, 69, 69, 0.15);
-$filter-gray-4: hsla(0, 0%, 0%, 0.55);
+$filter-dark-blue: hsla(201, 24%, 14%, 0.5);
 $h-header: 3.5rem;
 $w-nav: 12.5rem;
 $bs-breakpoints: (
@@ -210,23 +210,23 @@ html {
     background-image: linear-gradient(to top, $filter-gray-3, $filter-gray-3 100%), url(../../media/empresa-banner.jpg);
 }
 .bg-banner-equipo {
-    background-image: url(../../media/equipo-banner.jpg);
+    background-image: linear-gradient(to top, $filter-gray-2, $filter-gray-2 100%), url(../../media/equipo-banner.jpg);
 }
 .bg-banner-obras {
     background-image: url(../../media/obras-banner.jpg);
 }
 .bg-banner-contacto {
-    background-image: url(../../media/contacto-banner.jpg);
+    background-image: linear-gradient(to top, $filter-gray-3, $filter-gray-3 100%), url(../../media/contacto-banner.jpg);
 }
 
 .bg-img-mision {
-    background-image: linear-gradient(to top, $filter-gray-4, $filter-gray-4 100%), url(../../media/mision-img.jpg);
+    background-image: linear-gradient(to top, $filter-dark-blue, $filter-dark-blue 100%), url(../../media/mision-img.jpg);
 }
 .bg-img-vision {
-    background-image: linear-gradient(to top, $filter-gray-4, $filter-gray-4 100%), url(../../media/vision-img.jpg);
+    background-image: linear-gradient(to top, $filter-dark-blue, $filter-dark-blue 100%), url(../../media/vision-img.jpg);
 }
 .bg-img-valores {
-    background-image: linear-gradient(to top, $filter-gray-4, $filter-gray-4 100%), url(../../media/valores-img.jpg);
+    background-image: linear-gradient(to top, $filter-dark-blue, $filter-dark-blue 100%), url(../../media/valores-img.jpg);
 }
 
 
