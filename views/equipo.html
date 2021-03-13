@@ -7,14 +7,23 @@
         <meta name="keywords"  content="Equipo Serner Maquinaria">
 		<title>Equipo - Serner</title>
         <link rel="icon" type="image/x-icon" href="../media/serner-icono.ico">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" href="../assets/css/style.css">
 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://kit.fontawesome.com/8cb6077f33.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 	</head>
-	<body>
+	<body class="overflow-x-hidden">
+        <script>
+            AOS.init({
+                duration: 800,
+                once: true
+            });
+        </script>
+        
         <!--            Header          -->
         <header class="w-100 h-header bg-blue-4 sticky-top d-flex justify-content-between">
             <input id="btnMenu" type="checkbox" class="d-none">
@@ -22,16 +31,16 @@
                 <i class="fas fa-bars color-white h2 mb-0"></i>
             </label>
             <label for="btnMenu" class="d-none opacity-0 filter-gray position-fixed top-0 right-0 left-0 bottom-0 transition-aside-label" id="label-aside"></label>
-            <nav class="bg-blue-4 d-flex flex-column position-fixed top-0 bottom-0 left-nav transition-nav d-lg-block position-lg-unset w-lg-auto h-lg-auto bg-lg-transparent align-self-lg-end ml-lg-6 mb-lg-1" id="nav">
+            <nav class="bg-blue-4 d-flex flex-column position-fixed top-0 bottom-0 left-nav w-nav transition-nav d-lg-block position-lg-unset w-lg-auto h-lg-auto bg-lg-transparent align-self-lg-center ml-lg-6" id="nav">
                 <label for="btnMenu" class="align-self-end p-3 mb-0 d-lg-none">
                     <i class="fas fa-times color-white h6 mb-0"></i>
                 </label>
-                <ul class="list-unstyled font-size-1 d-flex flex-column pt-4 flex-lg-row mb-0 pt-lg-0">
-                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover btn-hover-lg-1" href="../index.html">Inicio</a></li>
-                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover btn-hover-lg-1" href="./empresa.html">Empresa</a></li>
-                    <li><a class="menu-link-active px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover btn-hover-lg-1" href="./equipo.html">Equipo</a></li>
-                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover btn-hover-lg-1" href="./obras.html">Obras</a></li>
-                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover btn-hover-lg-1" href="./contacto.html">Contacto</a></li>
+                <ul class="list-unstyled font-size-6 font-weight-600 d-flex flex-column pt-4 flex-lg-row mb-0 pt-lg-0">
+                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="../index.html">Inicio</a></li>
+                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./empresa.html">Empresa</a></li>
+                    <li><a class="menu-link-active px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./equipo.html">Equipo</a></li>
+                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./obras.html">Obras</a></li>
+                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./contacto.html">Contacto</a></li>
                 </ul>
             </nav>
             <a class="align-self-center mr-4" href="../index.html">
@@ -41,15 +50,15 @@
 
         <!--            Equipo banner            -->
         <div class="w-100 h-banner-2 bg-banner-equipo bg-size-cover bg-position-center d-flex justify-content-center align-items-center">
-            <h1 class="text-white">Equipo</h1>
+            <h1 class="text-white" data-aos="fade-up">Equipo</h1>
         </div>
 
         <!--            Equipo            -->
         <span class="anchor d-block visibility-hidden" id="equipo"></span>
-        <div class="container my-5 font-size-2">
+        <div class="container font-size-2 mt-5">
             <div class="d-flex">
-                <img class="w-25 object-fit-cover" src="../media/equipo-img.jpg" alt="equipo-img">
-                <div class="ml-3">
+                <img class="w-25 object-fit-cover" data-aos="fade-right" src="../media/equipo-img.jpg" alt="equipo-img">
+                <div class="ml-3" data-aos="fade-left">
                     <h3>Plantel tecnico</h3>
                     <p>Nuestro plantel de ingenieros y arquitectos esta compuesto por profesionales de suma experiencia y conocimiento que aseguran diseños esteticos y de la mas alta calidad.
                     <br>Logramos trabajos unicos y eficientes, gracias a la excelente planificacion y direccion que nos aportan.</p>
@@ -61,26 +70,26 @@
         </div>
 
         <!--            Maquinaria            -->
-        <div class="container font-size-2 my-5">
-            <span class="anchor d-block visibility-hidden" id="maquinaria"></span>
-            <h2 class="text-center mb-3">Maquinaria</h2>
-            <p>Disponemos de 60 maquinarias propias de alto rendimiento acompañadas de expertos maquinistas y mecánicos de gran experiencia, lo que nos permite realizar distintas actividades como:</p>
-            <div class="d-flex flex-wrap flex-md-nowrap mb-4">
-                <ul>
+        <span class="anchor d-block visibility-hidden" id="maquinaria"></span>
+        <div class="container font-size-2 mt-4 mb-5">
+            <h2 class="text-center mb-3" data-aos="fade-down">Maquinaria</h2>
+            <p data-aos="fade-down">Disponemos de 60 maquinarias propias de alto rendimiento acompañadas de expertos maquinistas y mecánicos de gran experiencia, lo que nos permite realizar distintas actividades como:</p>
+            <div class="d-flex flex-wrap flex-md-nowrap mb-4" data-aos="fade-down">
+                <ul class="mr-auto mb-0">
                     <li>Movimiento de suelos</li>
                     <li>Pavimentos rígidos y flexibles</li>
                     <li>Limpieza de predio</li>
                     <li>Retiro de árboles</li>
                     <li>Desmontes</li>
                 </ul>
-                <ul>
+                <ul class="mr-auto mb-0">
                     <li>Perfilados</li>
                     <li>Compactaciones</li>
                     <li>Terraplenes de suelos seleccionados</li>
                     <li>Suelos de cal y cemento</li>
                     <li>Caminos rurales</li>
                 </ul>
-                <ul>
+                <ul class="mr-auto mb-0">
                     <li>Excavaciones</li>
                     <li>Demoliciones</li>
                     <li>Entubamientos</li>
@@ -88,7 +97,7 @@
                 </ul>
             </div>
             <div class="row text-white text-center font-size-6 font-weight-600">
-                <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="col-lg-4 mb-4 mb-lg-0" data-aos="fade-left">
                     <div class="overlay-container position-relative scale-img-hover overflow-hidden">
                         <img class="w-100 object-fit-cover transition-scale" src="../media/maquinaria-1.jpg" alt="Aplanadora de rodillo">
                         <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
@@ -104,7 +113,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-3 mb-lg-0">
+                <div class="col-lg-4 mb-3 mb-lg-0" data-aos="fade-right">
                     <div class="overlay-container position-relative scale-img-hover overflow-hidden">
                         <img class="w-100 object-fit-cover transition-scale" src="../media/maquinaria-3.jpg" alt="Tractor topador">
                         <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">

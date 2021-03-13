@@ -7,14 +7,23 @@
         <meta name="keywords"  content="Empresa Serner Historia Mision Valores">
 		<title>Empresa - Serner</title>
         <link rel="icon" type="image/x-icon" href="../media/serner-icono.ico">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" href="../assets/css/style.css">
 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://kit.fontawesome.com/8cb6077f33.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 	</head>
-	<body>
+	<body class="overflow-x-hidden">
+        <script>
+            AOS.init({
+                duration: 800,
+                once: true
+            });
+        </script>
+
         <!--            Header          -->
         <header class="w-100 h-header bg-blue-4 sticky-top d-flex justify-content-between">
             <input id="btnMenu" type="checkbox" class="d-none">
@@ -22,16 +31,16 @@
                 <i class="fas fa-bars color-white h2 mb-0"></i>
             </label>
             <label for="btnMenu" class="d-none opacity-0 filter-gray position-fixed top-0 right-0 left-0 bottom-0 transition-aside-label" id="label-aside"></label>
-            <nav class="bg-blue-4 d-flex flex-column position-fixed top-0 bottom-0 left-nav transition-nav d-lg-block position-lg-unset w-lg-auto h-lg-auto bg-lg-transparent align-self-lg-end ml-lg-6 mb-lg-1" id="nav">
+            <nav class="bg-blue-4 d-flex flex-column position-fixed top-0 bottom-0 left-nav w-nav transition-nav d-lg-block position-lg-unset w-lg-auto h-lg-auto bg-lg-transparent align-self-lg-center ml-lg-6" id="nav">
                 <label for="btnMenu" class="align-self-end p-3 mb-0 d-lg-none">
                     <i class="fas fa-times color-white h6 mb-0"></i>
                 </label>
-                <ul class="list-unstyled font-size-1 d-flex flex-column pt-4 flex-lg-row mb-0 pt-lg-0">
-                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover btn-hover-lg-1" href="../index.html">Inicio</a></li>
-                    <li><a class="menu-link-active px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover btn-hover-lg-1" href="./empresa.html">Empresa</a></li>
-                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover btn-hover-lg-1" href="./equipo.html">Equipo</a></li>
-                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover btn-hover-lg-1" href="./obras.html">Obras</a></li>
-                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover btn-hover-lg-1" href="./contacto.html">Contacto</a></li>
+                <ul class="list-unstyled font-size-6 font-weight-600 d-flex flex-column pt-4 flex-lg-row mb-0 pt-lg-0">
+                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="../index.html">Inicio</a></li>
+                    <li><a class="menu-link-active px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./empresa.html">Empresa</a></li>
+                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./equipo.html">Equipo</a></li>
+                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./obras.html">Obras</a></li>
+                    <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./contacto.html">Contacto</a></li>
                 </ul>
             </nav>
             <a class="align-self-center mr-4" href="../index.html">
@@ -41,12 +50,12 @@
 
         <!-- Empresa banner -->
         <div class="w-100 h-banner-2 bg-banner-empresa bg-size-cover bg-position-center d-flex justify-content-center align-items-center">
-            <h1 class="text-white">Empresa</h1>
+            <h1 class="text-white" data-aos="fade-up">Empresa</h1>
         </div>
         
         <!--            Sobre nosotros          -->
-        <div class="container my-5">
-            <span class="anchor d-block visibility-hidden" id="quienes-somos"></span>
+        <span class="anchor d-block visibility-hidden" id="quienes-somos"></span>
+        <div class="container my-5" data-aos="fade-up">
             <h2>Quienes somos</h2>
             <p class="font-size-2">Creada en 1999 por Joaquin Serna y Francisco Giner. Lo que empezo con dos amigos muy trabajadores hoy ha crecido a una empresa de gran prestigio.
                 <br>
@@ -59,19 +68,19 @@
         <!--            Empresa            -->
         <div class="container-fluid mt-3">
             <div class="row font-size-2 text-white">
-                <div class="col-12 col-lg-6 p-0">
+                <div class="col-12 col-lg-6 p-0" data-aos="fade-right" data-aos-offset="180">
                     <div class="bg-img-mision bg-size-cover bg-position-center h-100 p-5">
                         <h2 class="text-center mb-3">Nuestra misión</h2>
                         <p>Queremos construir obras que perduren por generaciones y generen un aporte positivo hacia sus residentes y su entorno. Esa es la razon por la cual enfatizamos tanto en la importancia de la calidad y compromiso con nuestros clientes.</p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 p-0">
+                <div class="col-12 col-lg-6 p-0" data-aos="fade-left" data-aos-offset="180">
                     <div class="bg-img-vision bg-size-cover bg-position-center h-100 p-5">
                         <h2 class="text-center mb-3">Nuestra vision</h2>
                         <p>Nuestra meta es ser un referente mundial en construcciones de America Latina por lo cual estamos en un constante proceso de mejora, continuamente aumentando nuestro personal, incorporando nuevos socios y adquiriendo nuevas tecnologias.</p>
                     </div>
                 </div>
-                <div class="col-12 p-0">
+                <div class="col-12 p-0" data-aos="fade-up" data-aos-offset="60">
                     <div class="bg-img-valores bg-size-cover h-100 p-5">
                         <h2 class="text-center mb-3">Nuestros valores</h2>
                         <ul class="list-unstyled">

@@ -103,6 +103,9 @@ html {
 .opacity-0 {
   opacity: 0; }
 
+.overflow-x-hidden {
+  overflow-x: hidden; }
+
 .top-0 {
   top: 0; }
 
@@ -237,7 +240,7 @@ html {
     height: 18rem; }
   .bg-lg-transparent {
     background-color: transparent; }
-  .btn-hover-lg-1:hover {
+  .menu-link-hover-lg:hover {
     color: #3E96FE;
     background-color: transparent; }
   .ml-lg-6 {
