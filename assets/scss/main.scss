@@ -100,7 +100,7 @@ html {
 .px-7 {
     padding-left: .75rem; padding-right: .75rem;
 }
-.px-7 {
+.px-8 {
     padding-left: 4rem; padding-right: 4rem;
 }
 
@@ -165,6 +165,9 @@ html {
 
 .transition-nav {
     transition: left .4s ease .2s;
+}
+.transition-menu-link {
+    transition: all .15s ease;
 }
 .transition-aside-label {
     transition: opacity .3s ease;
