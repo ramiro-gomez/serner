@@ -1,3 +1,6 @@
+:root {
+  font-size: 12px; }
+
 html {
   scroll-behavior: smooth; }
 
@@ -78,6 +81,10 @@ html {
   padding-left: .75rem;
   padding-right: .75rem; }
 
+.px-7 {
+  padding-left: 4rem;
+  padding-right: 4rem; }
+
 .border-2 {
   border: 2px solid; }
 
@@ -119,6 +126,9 @@ html {
 
 .bottom-0 {
   bottom: 0; }
+
+.bottom-banner {
+  bottom: 30%; }
 
 .left-nav {
   left: -12.5rem; }
@@ -178,7 +188,7 @@ html {
   width: 17rem; }
 
 .w-btn {
-  width: 10.25rem; }
+  width: 10.3rem; }
 
 .w-maquinaria-img {
   width: 18.75rem; }
@@ -243,7 +253,13 @@ html {
 .scale-img-hover:hover img {
   transform: scale(1.1, 1.1); }
 
+@media (min-width: 576px) {
+  .bottom-sm-banner {
+    bottom: 35%; } }
+
 @media (min-width: 768px) {
+  :root {
+    font-size: 14px; }
   .h-md-auto {
     height: auto; }
   .py-md-6 {
@@ -251,8 +267,12 @@ html {
     padding-bottom: 6rem !important; } }
 
 @media (min-width: 992px) {
+  :root {
+    font-size: 16px; }
   .position-lg-unset {
     position: unset !important; }
+  .bottom-lg-banner {
+    bottom: 40%; }
   .w-lg-auto {
     width: auto; }
   .h-lg-auto {

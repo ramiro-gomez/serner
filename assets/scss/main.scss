@@ -11,6 +11,10 @@ $bs-breakpoints: (
     xl: 1200px
 );
 
+:root {
+    font-size: 12px;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -96,6 +100,9 @@ html {
 .px-7 {
     padding-left: .75rem; padding-right: .75rem;
 }
+.px-7 {
+    padding-left: 4rem; padding-right: 4rem;
+}
 
 .border-2 {
     border: 2px solid;
@@ -141,6 +148,9 @@ html {
 }
 .bottom-0 {
     bottom: 0;
+}
+.bottom-banner {
+    bottom: 30%;
 }
 .left-nav {
     left: -$w-nav;
@@ -204,7 +214,7 @@ html {
     width: 17rem;
 }
 .w-btn {
-    width: 10.25rem;
+    width: 10.3rem;
 }
 .w-maquinaria-img {
     width: 18.75rem;
@@ -275,7 +285,15 @@ html {
     transform: scale(1.1, 1.1);
 }
 
+@media (min-width: map-get($bs-breakpoints, sm)) {
+    .bottom-sm-banner {
+        bottom: 35%;
+    }
+}
 @media (min-width: map-get($bs-breakpoints, md)) {
+    :root {
+        font-size: 14px;
+    }
     .h-md-auto {
         height: auto;
     }
@@ -284,8 +302,14 @@ html {
     }
 }
 @media (min-width: map-get($bs-breakpoints, lg)) {
+    :root {
+        font-size: 16px;
+    }
     .position-lg-unset {
         position: unset !important;
+    }
+    .bottom-lg-banner {
+        bottom: 40%;
     }
     .w-lg-auto {
         width: auto;
