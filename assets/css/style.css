@@ -59,10 +59,13 @@ html {
   font-size: 3rem; }
 
 .font-size-5 {
-  font-size: 1.05rem; }
+  font-size: 1rem; }
 
 .font-size-6 {
   font-size: 1.2rem; }
+
+.font-size-7 {
+  font-size: 1.3rem; }
 
 .font-weight-600 {
   font-weight: 600; }
@@ -75,10 +78,6 @@ html {
   padding-left: .75rem;
   padding-right: .75rem; }
 
-.py-6 {
-  padding-top: 6rem;
-  padding-bottom: 6rem; }
-
 .border-2 {
   border: 2px solid; }
 
@@ -90,6 +89,9 @@ html {
 
 .object-fit-cover {
   object-fit: cover; }
+
+.object-position-top {
+  object-position: top; }
 
 .w-fit-content {
   width: fit-content; }
@@ -145,8 +147,20 @@ html {
 .h-banner-2 {
   height: 30rem; }
 
+.h-img-resumen {
+  height: 10rem; }
+
 .h-preview-obra {
   height: 12rem; }
+
+.h-img-obra {
+  height: 15rem; }
+
+.h-img-equipo {
+  height: 14rem; }
+
+.h-img-maquinaria {
+  height: 15rem; }
 
 .h-min-1 {
   min-height: 8rem; }
@@ -229,6 +243,13 @@ html {
 .scale-img-hover:hover img {
   transform: scale(1.1, 1.1); }
 
+@media (min-width: 768px) {
+  .h-md-auto {
+    height: auto; }
+  .py-md-6 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important; } }
+
 @media (min-width: 992px) {
   .position-lg-unset {
     position: unset !important; }
@@ -236,6 +257,8 @@ html {
     width: auto; }
   .h-lg-auto {
     height: auto; }
+  .h-lg-100 {
+    height: 100%; }
   .h-lg-img-obra {
     height: 18rem; }
   .bg-lg-transparent {

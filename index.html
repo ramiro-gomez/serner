@@ -19,7 +19,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     </head>
-    <body class="overflow-x-hidden">
+    <body>
         <script>
             AOS.init({
                 duration: 800,
@@ -46,7 +46,7 @@
                     <li><a class="color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./views/contacto.html">Contacto</a></li>
                 </ul>
             </nav>
-            <a class="align-self-center mr-4" href="./index.html">
+            <a class="align-self-center mr-3" href="./index.html">
                 <img class="w-logo" src="./media/serner-logo.png" alt="serner-logo">
             </a>
         </header>
@@ -92,18 +92,18 @@
 
         <!--            Resumen            -->
         <div class="container my-5">
-            <div class="row">
+            <div class="row mx-0">
                 <div class="col-lg-8">
-                    <p class="font-size-2" data-aos="fade-right">Nuestra empresa fue fundada en 2004 por Joaquin Serna y Francisco Giner. Llevamos más de 15 años en el rubro y contamos con un gran equipo de ingenieros y arquitectos. Garantizamos la calidad y cumplimiento de plazos de todos nuestros proyectos.</p>
+                    <p class="font-size-7" data-aos="fade-right">Nuestra empresa fue fundada en 2004 por Joaquin Serna y Francisco Giner. Llevamos más de 15 años en el rubro y contamos con un gran equipo de ingenieros y arquitectos.<br>Garantizamos la calidad y cumplimiento de plazos de todos nuestros proyectos.</p>
                 </div>
-                <div class="col-10 offset-1 col-lg-4 offset-lg-0">
-                    <img class="w-100" data-aos="fade-left" src="./media/resumen-img.jpg" alt="HistoriaImg">
+                <div class="col-12 col-lg-4 offset-lg-0 overflow-x-hidden">
+                    <img class="w-100 h-img-resumen h-lg-auto object-fit-cover" data-aos="fade-left" src="./media/resumen-img.jpg" alt="HistoriaImg">
                 </div>
             </div>        
         </div>
 
         <!--            Contador            -->
-        <div class="w-100 bg-blue-3 py-6">
+        <div class="w-100 bg-blue-3 py-5 py-md-6">
             <div class="row mx-0">
                 <div class="col-md-4">
                     <h4 class="text-white text-center mx-lg-4 my-3 m-lg-0 counter">60</h4>
@@ -123,8 +123,8 @@
         <!--            Servicios            -->
         <span class="anchor d-block visibility-hidden" id="servicios"></span>
         <div class="container my-5">
-            <div class="row">
-                <div class="col-10 offset-1 col-md-4 offset-md-0 bg-blue-2 font-size-2 text-white d-flex flex-column px-4 px-sm-5 px-md-2 px-lg-5 pb-4" data-aos="fade-right">
+            <div class="row mx-0 overflow-x-hidden">
+                <div class="col-10 offset-1 col-lg-4 offset-lg-0 bg-blue-2 font-size-2 text-white d-flex flex-column px-4 px-sm-5 pb-4" data-aos="fade-right">
                     <p class="text-center my-4">Diseño</p>
                     <ul>
                         <li>Redacción de proyectos</li>
@@ -133,7 +133,7 @@
                         <li>Diseño 3D</li>
                     </ul>
                 </div>
-                <div class="col-10 offset-1 col-md-4 offset-md-0 bg-blue-1 font-size-2 text-white d-flex flex-column px-4 px-sm-5 px-md-2 px-lg-5 pb-4">
+                <div class="col-10 offset-1 col-lg-4 offset-lg-0 bg-blue-1 font-size-2 text-white d-flex flex-column px-4 px-sm-5 pb-4">
                     <p class="text-center my-4">Construcción</p>
                     <ul>
                         <li>Edificación con llave en mano</li>
@@ -141,7 +141,7 @@
                         <li>Pavimentacion</li>
                     </ul>
                 </div>
-                <div class="col-10 offset-1 col-md-4 offset-md-0 bg-blue-3 font-size-2 text-white d-flex flex-column px-4 px-sm-5 px-md-2 px-lg-5 pb-4" data-aos="fade-left">
+                <div class="col-10 offset-1 col-lg-4 offset-lg-0 bg-blue-3 font-size-2 text-white d-flex flex-column px-4 px-sm-5 pb-4" data-aos="fade-left">
                     <p class="text-center my-4">Mantenimiento</p>
                     <ul>
                         <li>Mantenimiento preventivo de la estructura</li>
@@ -155,28 +155,28 @@
         <!--            Obras preview            -->
         <div class="container px-0 my-5">
             <h2 class="h3 text-center mb-4" data-aos="fade-down">Parece imposible hasta que lo construimos</h2>
-            <div class="row h5" data-aos="fade-up">
-                <div class="col-10 offset-1 col-lg-4 offset-lg-0 my-3">
+            <div class="row mx-0 h5">
+                <div class="col-10 offset-1 col-lg-4 offset-lg-0 my-3" data-aos="fade-up">
                     <div class="overlay-container position-relative h-100 scale-img-hover overflow-hidden">
-                        <img class="w-100 h-100 object-fit-cover transition-scale" src="./media/obras/obra-12.jpg" alt="NaveIndustrial">
+                        <img class="w-100 h-preview-obra h-lg-100 object-fit-cover transition-scale" src="./media/obras/obra-12.jpg" alt="NaveIndustrial">
                         <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
                             <p class="text-white text-center">Metalurgica Caliber - Almacen industrial</p>
                             <a class="btn btn-outline-light position-absolute bottom-btn border-2 font-size-3 font-weight-600" href="./views/obras.html">Ver obras</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-10 offset-1 col-lg-4 offset-lg-0 my-3">
+                <div class="col-10 offset-1 col-lg-4 offset-lg-0 my-3" data-aos="fade-up">
                     <div class="overlay-container position-relative h-100 scale-img-hover overflow-hidden">
-                        <img class="w-100 h-100 object-fit-cover transition-scale" src="./media/obras/obra-5.jpg" alt="Concesionario">
+                        <img class="w-100 h-preview-obra h-lg-100 object-fit-cover transition-scale" src="./media/obras/obra-5.jpg" alt="Concesionario">
                         <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
                             <p class="text-white">Concesionario BMW</p>
                             <a class="btn btn-outline-light position-absolute bottom-btn border-2 font-size-3 font-weight-600" href="./views/obras.html">Ver obras</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-10 offset-1 col-lg-4 offset-lg-0 my-3 overlay-container">
+                <div class="col-10 offset-1 col-lg-4 offset-lg-0 my-3" data-aos="fade-up">
                     <div class="overlay-container position-relative h-100 scale-img-hover overflow-hidden">
-                        <img class="w-100 h-100 object-fit-cover transition-scale" src="./media/obras/obra-4.jpg" alt="Starbucks">
+                        <img class="w-100 h-preview-obra h-lg-100 object-fit-cover transition-scale" src="./media/obras/obra-4.jpg" alt="Starbucks">
                         <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
                             <p class="text-white">Starbucks - Cafeteria</p>
                             <a class="btn btn-outline-light position-absolute bottom-btn border-2 font-size-3 font-weight-600" href="./views/obras.html">Ver obras</a>
@@ -222,7 +222,7 @@
         $(document).ready(function(){
         $('.counter').counterUp({
             delay: 5,
-            time: 1450
+            time: 1350
         });
         });
         </script>
