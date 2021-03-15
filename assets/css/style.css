@@ -8,36 +8,36 @@ html {
   background-color: rgba(69, 69, 69, 0.4); }
 
 .bg-black {
-  background-color: black; }
+  background-color: #000; }
 
 .bg-blue-1 {
   background-color: #3282b8; }
 
 .bg-blue-2 {
-  background-color: #0F4C75; }
+  background-color: #0f4c75; }
 
 .bg-blue-3 {
-  background-color: #112D4E; }
+  background-color: #112d4e; }
 
 .bg-blue-4 {
-  background-color: #1B262C; }
+  background-color: #1b262c; }
 
 .color-white {
-  color: white; }
+  color: #fff; }
 
 .menu-link-active {
-  color: #3E96FE; }
+  color: #3e96fe; }
 
 .menu-link-hover:hover {
-  color: #3E96FE;
+  color: #3e96fe;
   background-color: #0056b34d; }
 
 .btn-blue {
-  color: white;
+  color: #fff;
   background-color: #134f94;
   border-color: #134f94; }
   .btn-blue:hover {
-    color: white;
+    color: #fff;
     background-color: #2773ca;
     border-color: #2773ca; }
 
@@ -46,7 +46,7 @@ html {
   border-color: #2773ca;
   background-color: #2773ca0d; }
   .btn-outline-blue:hover {
-    color: white;
+    color: #fff;
     background-color: #2773ca; }
 
 .font-size-1 {
@@ -178,9 +178,6 @@ html {
 .h-min-1 {
   min-height: 8rem; }
 
-.h-text-area {
-  height: 12rem !important; }
-
 .w-nav {
   width: 12.5rem; }
 
@@ -201,34 +198,34 @@ html {
   height: 15rem; }
 
 .bg-banner-home-1 {
-  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.1), rgba(69, 69, 69, 0.1) 100%), url(../../media/home-banner-1.jpg); }
+  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.1), rgba(69, 69, 69, 0.1) 100%), url(../../media/banner-home-1.jpg); }
 
 .bg-banner-home-2 {
-  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.4), rgba(69, 69, 69, 0.4) 100%), url(../../media/home-banner-2.jpg); }
+  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.4), rgba(69, 69, 69, 0.4) 100%), url(../../media/banner-home-2.jpg); }
 
 .bg-banner-home-3 {
-  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.4), rgba(69, 69, 69, 0.4) 100%), url(../../media/home-banner-3.jpg); }
+  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.4), rgba(69, 69, 69, 0.4) 100%), url(../../media/banner-home-3.jpg); }
 
 .bg-banner-empresa {
-  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.15), rgba(69, 69, 69, 0.15) 100%), url(../../media/empresa-banner.jpg); }
+  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.15), rgba(69, 69, 69, 0.15) 100%), url(../../media/banner-empresa.jpg); }
 
 .bg-banner-equipo {
-  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.1), rgba(69, 69, 69, 0.1) 100%), url(../../media/equipo-banner.jpg); }
+  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.1), rgba(69, 69, 69, 0.1) 100%), url(../../media/banner-equipo.jpg); }
 
 .bg-banner-obras {
-  background-image: url(../../media/obras-banner.jpg); }
+  background-image: url(../../media/banner-obras.jpg); }
 
 .bg-banner-contacto {
-  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.15), rgba(69, 69, 69, 0.15) 100%), url(../../media/contacto-banner.jpg); }
+  background-image: linear-gradient(to top, rgba(69, 69, 69, 0.15), rgba(69, 69, 69, 0.15) 100%), url(../../media/banner-contacto.jpg); }
 
 .bg-img-mision {
-  background-image: linear-gradient(to top, rgba(27, 38, 44, 0.5), rgba(27, 38, 44, 0.5) 100%), url(../../media/mision-img.jpg); }
+  background-image: linear-gradient(to top, rgba(27, 38, 44, 0.5), rgba(27, 38, 44, 0.5) 100%), url(../../media/mision.jpg); }
 
 .bg-img-vision {
-  background-image: linear-gradient(to top, rgba(27, 38, 44, 0.5), rgba(27, 38, 44, 0.5) 100%), url(../../media/vision-img.jpg); }
+  background-image: linear-gradient(to top, rgba(27, 38, 44, 0.5), rgba(27, 38, 44, 0.5) 100%), url(../../media/vision.jpg); }
 
 .bg-img-valores {
-  background-image: linear-gradient(to top, rgba(27, 38, 44, 0.5), rgba(27, 38, 44, 0.5) 100%), url(../../media/valores-img.jpg); }
+  background-image: linear-gradient(to top, rgba(27, 38, 44, 0.5), rgba(27, 38, 44, 0.5) 100%), url(../../media/valores.jpg); }
 
 #btnMenu:checked ~ #nav {
   left: 0; }
@@ -287,7 +284,7 @@ html {
   .bg-lg-transparent {
     background-color: transparent; }
   .menu-link-hover-lg:hover {
-    color: #3E96FE;
+    color: #3e96fe;
     background-color: transparent; }
   .ml-lg-6 {
     margin-left: 5rem; } }
