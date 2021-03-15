@@ -38,15 +38,11 @@ html {
     background-color: #1b262c;
 }
 
-
-.color-white {
-    color: #fff;
-}
 .menu-link-active {
     color: #3e96fe;
 }
 .menu-link-hover:hover {
-    color: #3e96fe;
+    color: #3e96fe !important;
     background-color: #0056b34d;
 }
 
@@ -158,9 +154,6 @@ html {
 .bottom-btn {
     bottom: 15%;
 }
-.bottom-btn-1 {
-    bottom: 6rem;
-}
 
 
 .transition-nav {
@@ -219,10 +212,6 @@ html {
 .w-maquinaria-img {
     width: 18.75rem;
 }
-.equipo-img-size {
-    width: 20rem; height: 15rem;
-}
-
 
 .bg-banner-home-1 {
     background-image: linear-gradient(to top, $filter-gray-2, $filter-gray-2 100%), url(../../media/banner-home-1.jpg);
@@ -261,7 +250,8 @@ html {
     left: 0;
 }
 #btnMenu:checked ~ #label-aside {
-    display: block !important; opacity: 1;
+    display: block !important;
+    opacity: 1;
 }
 #btnMenu:checked ~ #label-x {
     display: block;
@@ -286,7 +276,7 @@ html {
 }
 
 @media (min-width: map-get($bs-breakpoints, sm)) {
-    .bottom-sm-banner {
+    .bottom-banner {
         bottom: 35%;
     }
 }
@@ -298,7 +288,8 @@ html {
         height: auto;
     }
     .py-md-6 {
-        padding-top: 6rem !important; padding-bottom: 6rem !important;
+        padding-top: 6rem !important;
+        padding-bottom: 6rem !important;
     }
 }
 @media (min-width: map-get($bs-breakpoints, lg)) {
@@ -308,7 +299,7 @@ html {
     .position-lg-unset {
         position: unset !important;
     }
-    .bottom-lg-banner {
+    .bottom-banner {
         bottom: 40%;
     }
     .w-lg-auto {
@@ -326,8 +317,9 @@ html {
     .bg-lg-transparent {
         background-color: transparent;
     }
-    .menu-link-hover-lg:hover {
-        color: #3e96fe; background-color: transparent;
+    .menu-link-hover:hover {
+        color: #3e96fe!important;
+        background-color: transparent;
     }
     .ml-lg-6 {
         margin-left: 5rem;

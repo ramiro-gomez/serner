@@ -28,25 +28,25 @@
         </script>
 
         <!--            Header          -->
-        <header class="w-100 h-header bg-blue-4 sticky-top d-flex justify-content-between">
+        <header class="w-100 h-header bg-blue-4 sticky-top d-flex align-items-center justify-content-between">
             <input id="btnMenu" type="checkbox" class="d-none">
-            <label for="btnMenu" class="d-lg-none align-self-center ml-3 ml-sm-4 mb-0">
-                <i class="fas fa-bars color-white h2 mb-0"></i>
+            <label for="btnMenu" class="d-lg-none ml-3 ml-sm-4 mb-0">
+                <i class="fas fa-bars text-white h2 mb-0"></i>
             </label>
             <label for="btnMenu" class="d-none opacity-0 filter-gray position-fixed top-0 right-0 left-0 bottom-0 transition-aside-label" id="label-aside"></label>
-            <nav class="bg-blue-4 d-flex flex-column position-fixed top-0 bottom-0 left-nav w-nav transition-nav d-lg-block position-lg-unset w-lg-auto h-lg-auto bg-lg-transparent align-self-lg-center ml-lg-6" id="nav">
+            <nav class="bg-blue-4 d-flex flex-column position-fixed top-0 bottom-0 left-nav w-nav transition-nav d-lg-block position-lg-unset w-lg-auto h-lg-auto bg-lg-transparent ml-lg-6" id="nav">
                 <label for="btnMenu" class="align-self-end p-3 mb-0 d-lg-none">
-                    <i class="fas fa-times color-white h6 mb-0"></i>
+                    <i class="fas fa-times text-white h6 mb-0"></i>
                 </label>
-                <ul class="list-unstyled font-size-6 font-weight-600 d-flex flex-column pt-4 mb-0 flex-lg-row pt-lg-0">
-                    <li><a class="transition-menu-link menu-link-active px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./index.html">Inicio</a></li>
-                    <li><a class="transition-menu-link color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./views/empresa.html">Empresa</a></li>
-                    <li><a class="transition-menu-link color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./views/equipo.html">Equipo</a></li>
-                    <li><a class="transition-menu-link color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./views/obras.html">Obras</a></li>
-                    <li><a class="transition-menu-link color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./views/contacto.html">Contacto</a></li>
-                </ul>
+                <div class="font-size-6 font-weight-600 transition-menu-link d-flex flex-column pt-4 mb-0 flex-lg-row pt-lg-0">
+                    <a class="menu-link-active px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./index.html">Inicio</a>
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./views/empresa.html">Empresa</a>
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./views/equipo.html">Equipo</a>
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./views/obras.html">Obras</a>
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./views/contacto.html">Contacto</a>
+                </div>
             </nav>
-            <a class="align-self-center mr-3" href="./index.html">
+            <a class="mr-3" href="./index.html">
                 <img class="w-logo" src="./media/serner-logo.png" alt="serner-logo">
             </a>
         </header>
@@ -56,39 +56,39 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="bg-banner-home-1 h-banner bg-size-cover bg-position-center d-flex justify-content-center">
-                        <div class="position-absolute bottom-banner bottom-sm-banner bottom-lg-banner">
+                        <div class="position-absolute bottom-banner">
                             <div class="px-8">
                                 <h1 class="text-white font-size-4 font-weight-normal text-center mb-4" data-aos="fade-down">Construimos legados</h1>
                             </div>
                             <div class="d-flex flex-wrap justify-content-center my-3" data-aos="fade-up">
-                                <a class="btn w-btn btn-outline-blue font-weight-600 font-size-1 my-2 my-md-0 mx-2" href="./views/empresa.html#quienes-somos">Sobre nosotros</a>
-                                <a class="btn w-btn btn-blue font-weight-600 font-size-1 my-2 my-md-0 mx-2" href="#servicios">Servicios</a>
+                                <a class="btn w-btn btn-outline-blue font-weight-600 font-size-1 m-2 my-md-0" href="./views/empresa.html#quienes-somos">Sobre nosotros</a>
+                                <a class="btn w-btn btn-blue font-weight-600 font-size-1 m-2 my-md-0" href="#servicios">Servicios</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="bg-banner-home-2 h-banner bg-size-cover bg-position-center d-flex justify-content-center">
-                        <div class="position-absolute bottom-banner bottom-sm-banner bottom-lg-banner">
+                        <div class="position-absolute bottom-banner">
                             <div class="px-8">
                                 <h1 class="text-white font-size-4 font-weight-normal text-center mb-4">Obras personalizadas y a medida</h1>
                             </div>
                             <div class="d-flex flex-wrap justify-content-center my-3">
-                                <a class="btn w-btn btn-blue font-weight-600 font-size-1 my-2 my-md-0 mx-2" href="./views/equipo.html#maquinaria">Maquinaria</a>
-                                <a class="btn w-btn btn-outline-blue font-weight-600 font-size-1 my-2 my-md-0 mx-2" href="./views/contacto.html">Contactanos</a>
+                                <a class="btn w-btn btn-blue font-weight-600 font-size-1 m-2 my-md-0" href="./views/equipo.html#maquinaria">Maquinaria</a>
+                                <a class="btn w-btn btn-outline-blue font-weight-600 font-size-1 m-2 my-md-0" href="./views/contacto.html">Contactanos</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="bg-banner-home-3 h-banner bg-size-cover bg-position-center d-flex justify-content-center">
-                        <div class="position-absolute bottom-banner bottom-sm-banner bottom-lg-banner">
+                        <div class="position-absolute bottom-banner">
                             <div class="px-8">
                                 <h1 class="text-white font-size-4 font-weight-normal text-center mb-4">Ayudamos a tu empresa a crecer</h1>
                             </div>
                             <div class="d-flex flex-wrap justify-content-center my-3">
-                                <a class="btn w-btn btn-outline-light font-weight-600 font-size-1 my-2 my-md-0 mx-2" href="./views/obras.html">Ver obras</a>
-                                <a class="btn w-btn btn-blue font-weight-600 font-size-1 my-2 my-md-0 mx-2" href="./views/contacto.html">Contactanos</a>
+                                <a class="btn w-btn btn-outline-light font-weight-600 font-size-1 m-2 my-md-0" href="./views/obras.html">Ver obras</a>
+                                <a class="btn w-btn btn-blue font-weight-600 font-size-1 m-2 my-md-0" href="./views/contacto.html">Contactanos</a>
                             </div>
                         </div>
                     </div>
@@ -115,28 +115,28 @@
         </div>
 
         <!--            Contador            -->
-        <div class="w-100 bg-blue-3 py-5 py-md-6">
+        <div class="w-100 bg-blue-3 text-white text-center py-5 py-md-6">
             <div class="row mx-0">
                 <div class="col-md-4">
-                    <h4 class="text-white text-center mx-lg-4 my-3 m-lg-0 counter">60</h4>
-                    <h4 class="text-white text-center mx-lg-4 my-3 m-lg-0">Maquinarias de alto rendimiento</h4>
+                    <h4 class="my-3 my-lg-0 mx-lg-4 counter">60</h4>
+                    <h4 class="my-3 my-lg-0 mx-lg-4">Maquinarias de alto rendimiento</h4>
                 </div>
                 <div class="col-md-4">
-                    <h4 class="text-white text-center mx-lg-4 my-3 m-lg-0 counter">100</h4>
-                    <h4 class="text-white text-center mx-lg-4 my-3 m-lg-0">Obras realizadas</h4>
+                    <h4 class="my-3 my-lg-0 mx-lg-4 counter">100</h4>
+                    <h4 class="my-3 my-lg-0 mx-lg-4">Obras realizadas</h4>
                 </div>
                 <div class="col-md-4">
-                    <h4 class="text-white text-center mx-lg-4 my-3 m-lg-0 counter">20</h4>
-                    <h4 class="text-white text-center mx-lg-4 my-3 m-lg-0">Años de experiencia</h4>
+                    <h4 class="my-3 my-lg-0 mx-lg-4 counter">20</h4>
+                    <h4 class="my-3 my-lg-0 mx-lg-4">Años de experiencia</h4>
                 </div>
             </div>
         </div>
 
         <!--            Servicios            -->
         <span class="anchor d-block visibility-hidden" id="servicios"></span>
-        <div class="container my-5">
+        <div class="container font-size-2 text-white my-5">
             <div class="row mx-0 overflow-x-hidden">
-                <div class="col-10 offset-1 col-lg-4 offset-lg-0 bg-blue-2 font-size-2 text-white d-flex flex-column px-4 px-sm-5 pb-4" data-aos="fade-right">
+                <div class="col-10 offset-1 col-lg-4 offset-lg-0 bg-blue-2 d-flex flex-column px-4 pb-4 px-sm-5" data-aos="fade-right">
                     <p class="text-center my-4">Diseño</p>
                     <ul>
                         <li>Redacción de proyectos</li>
@@ -145,7 +145,7 @@
                         <li>Diseño 3D</li>
                     </ul>
                 </div>
-                <div class="col-10 offset-1 col-lg-4 offset-lg-0 bg-blue-1 font-size-2 text-white d-flex flex-column px-4 px-sm-5 pb-4">
+                <div class="col-10 offset-1 col-lg-4 offset-lg-0 bg-blue-1 d-flex flex-column px-4 pb-4 px-sm-5">
                     <p class="text-center my-4">Construcción</p>
                     <ul>
                         <li>Edificación con llave en mano</li>
@@ -153,7 +153,7 @@
                         <li>Pavimentacion</li>
                     </ul>
                 </div>
-                <div class="col-10 offset-1 col-lg-4 offset-lg-0 bg-blue-3 font-size-2 text-white d-flex flex-column px-4 px-sm-5 pb-4" data-aos="fade-left">
+                <div class="col-10 offset-1 col-lg-4 offset-lg-0 bg-blue-3 d-flex flex-column px-4 pb-4 px-sm-5" data-aos="fade-left">
                     <p class="text-center my-4">Mantenimiento</p>
                     <ul>
                         <li>Mantenimiento preventivo de la estructura</li>
@@ -167,12 +167,12 @@
         <!--            Obras preview            -->
         <div class="container px-0 my-5">
             <h2 class="h3 text-center mb-4" data-aos="fade-down">Parece imposible hasta que lo construimos</h2>
-            <div class="row mx-0 h5">
+            <div class="row mx-0">
                 <div class="col-10 offset-1 col-lg-4 offset-lg-0 my-3" data-aos="fade-up">
                     <div class="overlay-container position-relative h-100 scale-img-hover overflow-hidden">
                         <img class="w-100 h-preview-obra h-lg-100 object-fit-cover transition-scale" src="./media/obras/obra-12.jpg" alt="NaveIndustrial">
                         <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
-                            <p class="text-white text-center">Metalurgica Caliber - Almacen industrial</p>
+                            <p class="h5 text-white text-center">Metalurgica Caliber - Almacen industrial</p>
                             <a class="btn btn-outline-light position-absolute bottom-btn border-2 font-size-3 font-weight-600" href="./views/obras.html">Ver obras</a>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                     <div class="overlay-container position-relative h-100 scale-img-hover overflow-hidden">
                         <img class="w-100 h-preview-obra h-lg-100 object-fit-cover transition-scale" src="./media/obras/obra-5.jpg" alt="Concesionario">
                         <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
-                            <p class="text-white">Concesionario BMW</p>
+                            <p class="h5 text-white">Concesionario BMW</p>
                             <a class="btn btn-outline-light position-absolute bottom-btn border-2 font-size-3 font-weight-600" href="./views/obras.html">Ver obras</a>
                         </div>
                     </div>
@@ -190,7 +190,7 @@
                     <div class="overlay-container position-relative h-100 scale-img-hover overflow-hidden">
                         <img class="w-100 h-preview-obra h-lg-100 object-fit-cover transition-scale" src="./media/obras/obra-4.jpg" alt="Starbucks">
                         <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
-                            <p class="text-white">Starbucks - Cafeteria</p>
+                            <p class="h5 text-white">Starbucks - Cafeteria</p>
                             <a class="btn btn-outline-light position-absolute bottom-btn border-2 font-size-3 font-weight-600" href="./views/obras.html">Ver obras</a>
                         </div>
                     </div>
@@ -199,15 +199,15 @@
         </div>
 
         <!--            Footer            -->
-        <footer class="container-fluid bg-black text-white font-size-5 p-3 d-flex flex-wrap justify-content-between">
-            <div class="d-flex flex-wrap m-2">
-                <div class="mr-4 font-weight-600">
+        <footer class="container-fluid bg-black text-white font-size-5 d-flex flex-wrap justify-content-between p-3">
+            <div class="font-weight-600 d-flex flex-wrap m-2">
+                <div class="mr-4">
                     <a class="text-light text-decoration-none d-block mb-2" href="./views/empresa.html#quienes-somos">Sobre nosotros</a>
                     <a class="text-light text-decoration-none d-block mb-2" href="./views/equipo.html#equipo">Nuestro equipo</a>
                     <a class="text-light text-decoration-none d-block mb-2" href="./views/contacto.html#empleos">Empleos</a>
                     <a class="text-light text-decoration-none d-block mb-2" href="./views/contacto.html#consultas">Consultas</a>
                 </div>
-                <div class="font-weight-600">
+                <div>
                     <div class="mb-2">
                         <i class="fas fa-phone-alt d-inline"></i>
                         <p class="d-inline">+54 (011) 6689-8678</p>
