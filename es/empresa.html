@@ -3,8 +3,8 @@
 	<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Creada en 1999 por Joaquin Serna y Francisco Giner. Lo que empezo con dos amigos muy trabajadores hoy ha crecido a una empresa de gran prestigio.">
-        <meta name="keywords"  content="Empresa Serner Historia Mision Valores">
+        <meta name="description" content="Fundada en 1999 por Joaquín Serna y Francisco Giner. Lo que empezó con dos amigos muy trabajadores hoy ha crecido a una empresa de gran prestigio.">
+        <meta name="keywords"  content="Empresa Serner Historia Misión Valores">
 		<title>Empresa - Serner</title>
         <link rel="icon" type="image/x-icon" href="../media/serner-icono.ico">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -25,30 +25,39 @@
         </script>
 
         <!--            Header          -->
-        <header class="w-100 h-header bg-blue-4 sticky-top d-flex justify-content-between">
+        <header class="w-100 h-header bg-blue-4 sticky-top d-flex align-items-center justify-content-between">
             <input id="btnMenu" type="checkbox" class="d-none">
-            <label for="btnMenu" class="d-lg-none align-self-center ml-3 ml-sm-4 mb-0">
-                <i class="fas fa-bars color-white h2 mb-0"></i>
+            <label for="btnMenu" class="d-lg-none ml-3 ml-sm-4 mb-0">
+                <i class="fas fa-bars text-white h2 mb-0"></i>
             </label>
             <label for="btnMenu" class="d-none opacity-0 filter-gray position-fixed top-0 right-0 left-0 bottom-0 transition-aside-label" id="label-aside"></label>
-            <nav class="bg-blue-4 d-flex flex-column position-fixed top-0 bottom-0 left-nav w-nav transition-nav d-lg-block position-lg-unset w-lg-auto h-lg-auto bg-lg-transparent align-self-lg-center ml-lg-6" id="nav">
+            <nav class="bg-blue-4 d-flex flex-column position-fixed top-0 bottom-0 left-nav w-nav transition-nav flex-lg-row position-lg-unset w-lg-auto h-lg-auto bg-lg-transparent" id="nav">
                 <label for="btnMenu" class="align-self-end p-3 mb-0 d-lg-none">
-                    <i class="fas fa-times color-white h6 mb-0"></i>
+                    <i class="fas fa-times text-white h6 mb-0"></i>
                 </label>
-                <ul class="list-unstyled font-size-6 font-weight-600 d-flex flex-column pt-4 flex-lg-row mb-0 pt-lg-0">
-                    <li><a class="transition-menu-link color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="../index.html">Inicio</a></li>
-                    <li><a class="transition-menu-link menu-link-active px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./empresa.html">Empresa</a></li>
-                    <li><a class="transition-menu-link color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./equipo.html">Equipo</a></li>
-                    <li><a class="transition-menu-link color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./obras.html">Obras</a></li>
-                    <li><a class="transition-menu-link color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./contacto.html">Contacto</a></li>
-                </ul>
+                <span class="color-semi-white font-size-3 font-weight-600 cursor-pointer order-1 px-6 mt-5 font-size-lg-1 align-self-lg-end order-lg-0 pr-lg-0 pl-lg-2 mt-lg-0" id="dropdown">
+                    <span class="pl-lg-2">ES
+                        <i class="fas fa-globe-americas"></i>
+                    </span>
+                    <div class="d-none position-absolute bg-blue-4 pt-1" id="dropdown-content">
+                        <a class="color-semi-white font-size-3 text-decoration-none d-block idiom-hover pl-2 pr-4 py-2 font-size-lg-1" href="./empresa.html">Español</a>
+                        <a class="color-semi-white font-size-3 text-decoration-none d-block idiom-hover pl-2 pr-4 py-2 font-size-lg-1" href="../en/company.html">Ingles</a>
+                    </div>
+                </span>
+                <div class="font-size-6 font-weight-600 transition-menu-link d-flex flex-column pt-4 mb-0 flex-lg-row pt-lg-0 ml-lg-5">
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="../index.html">Inicio</a>
+                    <a class="menu-link-active px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./empresa.html">Empresa</a>
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./equipo.html">Equipo</a>
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./obras.html">Obras</a>
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./contacto.html">Contacto</a>
+                </div>
             </nav>
-            <a class="align-self-center mr-3" href="../index.html">
+            <a class="mr-3" href="../index.html">
                 <img class="w-logo" src="../media/serner-logo.png" alt="serner-logo">
             </a>
         </header>
 
-        <!-- Empresa banner -->
+        <!--            Empresa banner            -->
         <div class="w-100 h-banner-2 bg-banner-empresa bg-size-cover bg-position-center d-flex justify-content-center align-items-center">
             <h1 class="text-white" data-aos="fade-up">Empresa</h1>
         </div>
@@ -57,12 +66,12 @@
         <span class="anchor d-block visibility-hidden" id="quienes-somos"></span>
         <div class="container my-5" data-aos="fade-up">
             <h2>Quienes somos</h2>
-            <p class="font-size-7">Creada en 1999 por Joaquin Serna y Francisco Giner. Lo que empezo con dos amigos muy trabajadores hoy ha crecido a una empresa de gran prestigio.
+            <p class="font-size-7">Fundada en 1999 por Joaquín Serna y Francisco Giner. Lo que empezó con dos amigos muy trabajadores hoy ha crecido a una empresa de gran prestigio.
                 <br>
-                A traves del tiempo hemos adquirido nuevos conocimientos, socios y valores que fortalecen nuestro labor.
+                A través del tiempo hemos adquirido nuevos conocimientos, socios y valores que fortalecen nuestro labor.
                 <br>
                 <br>
-                Somos una empresa comprometida en lograr los mas altos estandares de excelencia. Y por eso tenemos en claro que para obtener un producto final de máxima calidad, es imprescindible contar con materiales y personal acorde a esa calidad.</p>
+                Somos una empresa comprometida en lograr los más altos estándares de excelencia. Y por eso tenemos en claro que para obtener un producto final de máxima calidad, es imprescindible contar con materiales y personal acorde a esa calidad.</p>
         </div>
 
         <!--            Empresa            -->
@@ -76,16 +85,16 @@
                 </div>
                 <div class="col-12 col-lg-6 p-0" data-aos="fade-left" data-aos-offset="180">
                     <div class="bg-img-vision bg-size-cover bg-position-center h-100 p-4 p-sm-5">
-                        <h2 class="text-center mb-3">Nuestra vision</h2>
-                        <p>Nuestra meta es ser un referente mundial en construcciones de America Latina por lo cual estamos en un constante proceso de mejora, continuamente aumentando nuestro personal, incorporando nuevos socios y adquiriendo nuevas tecnologias.</p>
+                        <h2 class="text-center mb-3">Nuestra visión</h2>
+                        <p>Nuestra meta es ser un referente mundial en construcciones de América Latina por lo cual estamos en un constante proceso de mejora, continuamente aumentando nuestro personal, incorporando nuevos socios y adquiriendo nuevas tecnologías.</p>
                     </div>
                 </div>
                 <div class="col-12 p-0" data-aos="fade-up" data-aos-offset="60">
                     <div class="bg-img-valores bg-size-cover bg-position-center h-100 p-4 p-sm-5">
                         <h2 class="text-center mb-3">Nuestros valores</h2>
                         <ul class="list-unstyled">
-                            <li class="pb-2"><b>Comunicacion:</b> Mantenemos una constante comunicacion, tanto interna como externa, acompañada por un gran respeto mutuo.</li>
-                            <li class="pb-2"><b>Integridad:</b> Nuestros trabajos son totalmente transparentes, no hay fondos o desiciones que no sean consultados.</li>
+                            <li class="pb-2"><b>Comunicación:</b> Mantenemos una constante comunicación, tanto interna como externa, acompañada por un gran respeto mutuo.</li>
+                            <li class="pb-2"><b>Integridad:</b> Nuestros trabajos son totalmente transparentes, no hay fondos o decisiones que no sean consultados.</li>
                             <li class="pb-2"><b>Eficiencia:</b> Valoramos la productividad, el uso eficaz de materiales, tiempo y trabajo.</li>
                             <li class="pb-2"><b>Compromiso:</b> Nos comprometemos en el cumplimiento de cada plazo logrando la calidad y presupuesto acordado.</li>
                         </ul>
@@ -95,15 +104,15 @@
         </div>
 
         <!--            Footer            -->
-        <footer class="container-fluid bg-black text-white font-size-5 p-3 d-flex flex-wrap justify-content-between">
-            <div class="d-flex flex-wrap m-2">
-                <div class="mr-4 font-weight-600">
+        <footer class="container-fluid bg-black text-white font-size-5 d-flex flex-wrap justify-content-between p-3">
+            <div class="font-weight-600 d-flex flex-wrap m-2">
+                <div class="mr-4">
                     <a class="text-light text-decoration-none d-block mb-2" href="./empresa.html#quienes-somos">Sobre nosotros</a>
                     <a class="text-light text-decoration-none d-block mb-2" href="./equipo.html#equipo">Nuestro equipo</a>
                     <a class="text-light text-decoration-none d-block mb-2" href="./contacto.html#empleos">Empleos</a>
                     <a class="text-light text-decoration-none d-block mb-2" href="./contacto.html#consultas">Consultas</a>
                 </div>
-                <div class="font-weight-600">
+                <div>
                     <div class="mb-2">
                         <i class="fas fa-phone-alt d-inline"></i>
                         <p class="d-inline">+54 (011) 6689-8678</p>

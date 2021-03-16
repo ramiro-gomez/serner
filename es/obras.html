@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Gran variedad de obras de alta calidad">
+        <meta name="keywords"  content="Obras Serner Construcciones">
+        <title>Obras - Serner</title>
+        <link rel="icon" type="image/x-icon" href="../media/serner-icono.ico">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="../assets/css/style.css">
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://kit.fontawesome.com/8cb6077f33.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	</head>
+	<body>
+        <script>
+            AOS.init({
+                duration: 800,
+                once: true,
+                offset: 90
+            });
+        </script>
+        
+        <!--            Header          -->
+        <header class="w-100 h-header bg-blue-4 sticky-top d-flex align-items-center justify-content-between">
+            <input id="btnMenu" type="checkbox" class="d-none">
+            <label for="btnMenu" class="d-lg-none ml-3 ml-sm-4 mb-0">
+                <i class="fas fa-bars text-white h2 mb-0"></i>
+            </label>
+            <label for="btnMenu" class="d-none opacity-0 filter-gray position-fixed top-0 right-0 left-0 bottom-0 transition-aside-label" id="label-aside"></label>
+            <nav class="bg-blue-4 d-flex flex-column position-fixed top-0 bottom-0 left-nav w-nav transition-nav flex-lg-row position-lg-unset w-lg-auto h-lg-auto bg-lg-transparent" id="nav">
+                <label for="btnMenu" class="align-self-end p-3 mb-0 d-lg-none">
+                    <i class="fas fa-times text-white h6 mb-0"></i>
+                </label>
+                <span class="color-semi-white font-size-3 font-weight-600 cursor-pointer order-1 px-6 mt-5 font-size-lg-1 align-self-lg-end order-lg-0 pr-lg-0 pl-lg-2 mt-lg-0" id="dropdown">
+                    <span class="pl-lg-2">ES
+                        <i class="fas fa-globe-americas"></i>
+                    </span>
+                    <div class="d-none position-absolute bg-blue-4 pt-1" id="dropdown-content">
+                        <a class="color-semi-white font-size-3 text-decoration-none d-block idiom-hover pl-2 pr-4 py-2 font-size-lg-1" href="./obras.html">Español</a>
+                        <a class="color-semi-white font-size-3 text-decoration-none d-block idiom-hover pl-2 pr-4 py-2 font-size-lg-1" href="../en/works.html">Ingles</a>
+                    </div>
+                </span>
+                <div class="font-size-6 font-weight-600 transition-menu-link d-flex flex-column pt-4 mb-0 flex-lg-row pt-lg-0 ml-lg-5">
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="../index.html">Inicio</a>
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./empresa.html">Empresa</a>
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./equipo.html">Equipo</a>
+                    <a class="menu-link-active px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./obras.html">Obras</a>
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./contacto.html">Contacto</a>
+                </div>
+            </nav>
+            <a class="mr-3" href="../index.html">
+                <img class="w-logo" src="../media/serner-logo.png" alt="serner-logo">
+            </a>
+        </header>
+
+        <!-- Obras banner -->
+        <div class="w-100 h-banner-2 bg-banner-obras bg-size-cover bg-position-center d-flex justify-content-center align-items-center">
+            <h1 class="text-white" data-aos="fade-up">Obras</h1>
+        </div>
+
+        <!--            Galeria de Obras            -->
+        <div class="row w-90 mx-auto my-5 text-center">
+                <div class="col-12 my-2 col-md-6 col-lg-4 offset-md-0 px-7 mb-3" data-aos="fade-up">
+                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                        <img class="w-100 h-img-obra h-lg-img-obra object-fit-cover transition-scale" src="../media/obras/obra-13.jpg" alt="Nave industrial">
+                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                            <p class="text-white font-size-6 font-weight-600">25.000m²<br>Calle Alejandro Morales 105</p>
+                        </div>
+                    </div>
+                    <h4 class="font-size-1 font-weight-bold mt-2">Pandora S.A. - Nave industrial</h3>
+                </div>
+                <div class="col-12 my-2 col-md-6 col-lg-4 offset-md-0 px-7 mb-3" data-aos="fade-up">
+                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                        <img class="w-100 h-img-obra h-lg-img-obra object-fit-cover transition-scale" src="../media/obras/obra-12.jpg" alt="Metalurgica">
+                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                            <p class="text-white font-size-6 font-weight-600">18.600m²<br>Colectora Aguirre Oeste Km28</p>
+                        </div>
+                    </div>
+                    <h4 class="font-size-1 font-weight-bold mt-2">Metalúrgica Caliber - Almacén industrial</h3>
+                </div>
+                <div class="col-12 my-2 col-md-6 col-lg-4 offset-md-0 px-7 mb-3" data-aos="fade-up">
+                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                        <img class="w-100 h-img-obra h-lg-img-obra object-fit-cover transition-scale" src="../media/obras/obra-11.jpg" alt="Centro de distribucion">
+                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                            <p class="text-white font-size-6 font-weight-600">11.200m²<br>Colectora Lebsack Km85</p>
+                        </div>
+                    </div>
+                    <h4 class="font-size-1 font-weight-bold mt-2">eZAT - Centro de distribución Baltasar</h3>
+                </div>
+                <div class="col-12 my-2 col-md-6 col-lg-4 offset-md-0 px-7 mb-3" data-aos="fade-up">
+                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                        <img class="w-100 h-img-obra h-lg-img-obra object-fit-cover transition-scale" src="../media/obras/obra-10.jpg" alt="Centro de distribucion">
+                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                            <p class="text-white font-size-6 font-weight-600">10.000m²<br>Ruta Matías Nava Km120</p>
+                        </div>
+                    </div>
+                    <h4 class="font-size-1 font-weight-bold mt-2">Empresa Corintios - Centro de distribución Urquiza</h3>
+                </div>
+                <div class="col-12 my-2 col-md-6 col-lg-4 offset-md-0 px-7 mb-3" data-aos="fade-up">
+                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                        <img class="w-100 h-img-obra h-lg-img-obra object-fit-cover transition-scale" src="../media/obras/obra-9.jpg" alt="Edificio corporativo">
+                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                            <p class="text-white font-size-6 font-weight-600">Av. Joshua 244</p>
+                        </div>
+                    </div>
+                    <h4 class="font-size-1 font-weight-bold mt-2">Grupo Monsen - Edificio corporativo</h3>
+                </div>
+                <div class="col-12 my-2 col-md-6 col-lg-4 offset-md-0 px-7 mb-3" data-aos="fade-up">
+                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                        <img class="w-100 h-img-obra h-lg-img-obra object-fit-cover transition-scale" src="../media/obras/obra-8.jpg" alt="Clinica privada">
+                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                            <p class="text-white font-size-6 font-weight-600">Av. Ana Sofía Amaya 823</p>
+                        </div>
+                    </div>
+                    <h4 class="font-size-1 font-weight-bold mt-2">Health+ - Clínica privada</h3>
+                </div>
+                <div class="col-12 my-2 col-md-6 col-lg-4 offset-md-0 px-7 mb-3" data-aos="fade-up">
+                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                        <img class="w-100 h-img-obra h-lg-img-obra object-fit-cover transition-scale" src="../media/obras/obra-7.jpg" alt="Edificio residencial">
+                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                            <p class="text-white font-size-6 font-weight-600">Av. Alicea 129</p>
+                        </div>
+                    </div>
+                    <h4 class="font-size-1 font-weight-bold mt-2">Alicea - Edificio residencial</h3>
+                </div>
+                <div class="col-12 my-2 col-md-6 col-lg-4 offset-md-0 px-7 mb-3" data-aos="fade-up">
+                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                        <img class="w-100 h-img-obra h-lg-img-obra object-fit-cover transition-scale" src="../media/obras/obra-6.jpg" alt="Edificio de oficinas">
+                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                            <p class="text-white font-size-6 font-weight-600">Av. Paulista 574</p>
+                        </div>
+                    </div>
+                    <h4 class="font-size-1 font-weight-bold mt-2">Diario "El Griego" - Edificio de oficinas</h3>
+                </div>
+                <div class="col-12 my-2 col-md-6 col-lg-4 offset-md-0 px-7 mb-3" data-aos="fade-up">
+                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                        <img class="w-100 h-img-obra h-lg-img-obra object-fit-cover transition-scale" src="../media/obras/obra-5.jpg" alt="Concesionario">
+                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                            <p class="text-white font-size-6 font-weight-600">Av. Vega 785</p>
+                        </div>
+                    </div>
+                    <h4 class="font-size-1 font-weight-bold mt-2">BMW - Concesionario</h3>
+                </div>
+                <div class="col-12 my-2 col-md-6 col-lg-4 offset-md-0 px-7 mb-3" data-aos="fade-up">
+                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                        <img class="w-100 h-img-obra h-lg-img-obra object-fit-cover transition-scale" src="../media/obras/obra-4.jpg" alt="Cafeteria">
+                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                            <p class="text-white font-size-6 font-weight-600">Av. Berríos 670</p>
+                        </div>
+                    </div>
+                    <h4 class="font-size-1 font-weight-bold mt-2">Starbucks - Cafetería</h3>
+                </div>
+                <div class="col-12 my-2 col-md-6 col-lg-4 offset-md-0 px-7 mb-3" data-aos="fade-up">
+                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                        <img class="w-100 h-img-obra h-lg-img-obra object-fit-cover transition-scale" src="../media/obras/obra-3.jpg" alt="Tienda">
+                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                            <p class="text-white font-size-6 font-weight-600">Calle Mesa 154</p>
+                        </div>
+                    </div>
+                    <h4 class="font-size-1 font-weight-bold mt-2">Tienda IKEA</h3>
+                </div>
+                <div class="col-12 my-2 col-md-6 col-lg-4 offset-md-0 px-7 mb-3" data-aos="fade-up">
+                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                        <img class="w-100 h-img-obra h-lg-img-obra object-fit-cover transition-scale" src="../media/obras/obra-2.jpg" alt="Casas particulares">
+                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                            <p class="text-white font-size-6 font-weight-600">Calle Arevalo 398 y 399</p>
+                        </div>
+                    </div>
+                    <h4 class="font-size-1 font-weight-bold mt-2">Casas particulares</h3>
+                </div>
+                <div class="col-12 my-2 col-md-6 col-lg-4 offset-md-0 px-7" data-aos="fade-up">
+                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                        <img class="w-100 h-img-obra h-lg-img-obra object-fit-cover transition-scale" src="../media/obras/obra-1.jpg" alt="Pavimentacion">
+                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                            <p class="text-white font-size-6 font-weight-600">800 metros pavimentados<br>Calle Agustina Olivas</p>
+                        </div>
+                    </div>
+                    <h4 class="font-size-1 font-weight-bold mt-2">Pavimentación Olivas</h3>
+                </div>
+            </div>
+
+        <!--            Footer            -->
+        <footer class="container-fluid bg-black text-white font-size-5 d-flex flex-wrap justify-content-between p-3">
+            <div class="font-weight-600 d-flex flex-wrap m-2">
+                <div class="mr-4">
+                    <a class="text-light text-decoration-none d-block mb-2" href="./empresa.html#quienes-somos">Sobre nosotros</a>
+                    <a class="text-light text-decoration-none d-block mb-2" href="./equipo.html#equipo">Nuestro equipo</a>
+                    <a class="text-light text-decoration-none d-block mb-2" href="./contacto.html#empleos">Empleos</a>
+                    <a class="text-light text-decoration-none d-block mb-2" href="./contacto.html#consultas">Consultas</a>
+                </div>
+                <div>
+                    <div class="mb-2">
+                        <i class="fas fa-phone-alt d-inline"></i>
+                        <p class="d-inline">+54 (011) 6689-8678</p>
+                    </div>
+                    <div class="mb-2">
+                        <i class="far fa-envelope d-inline"></i>
+                        <p class="d-inline">info@serner.com.ar</p>
+                    </div>
+                    <div class="mb-2">
+                        <i class="fas fa-map-marker-alt d-inline"></i>
+                        <p class="d-inline">Cdad. de la Paz 3435, CABA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="m-2">
+                <a class="mr-lg-4" href="../index.html">
+                    <img class="w-logo-2" src="../media/serner-logo.png" alt="serner-logo">
+                </a>
+                <p class="text-light mb-0">Pagina creada por Ramiro Gómez</p>
+            </div>
+        </footer>
+	</body>
+</html>

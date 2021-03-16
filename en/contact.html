@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 	<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Contactanos mediante nuestro numero de telefono, mail o formulario. info@serner.com.ar">
+        <meta name="description" content="Contáctanos mediante nuestro numero de teléfono, mail o formulario. info@serner.com.ar">
         <meta name="keywords"  content="Contacto Serner Consultas">
-		<title>Contacto - Serner</title>
+		<title>Contact - Serner</title>
         <link rel="icon" type="image/x-icon" href="../media/serner-icono.ico">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -26,32 +26,41 @@
         </script>
         
         <!--            Header          -->
-        <header class="w-100 h-header bg-blue-4 sticky-top d-flex justify-content-between">
+        <header class="w-100 h-header bg-blue-4 sticky-top d-flex align-items-center justify-content-between">
             <input id="btnMenu" type="checkbox" class="d-none">
-            <label for="btnMenu" class="d-lg-none align-self-center ml-3 ml-sm-4 mb-0">
-                <i class="fas fa-bars color-white h2 mb-0"></i>
+            <label for="btnMenu" class="d-lg-none ml-3 ml-sm-4 mb-0">
+                <i class="fas fa-bars text-white h2 mb-0"></i>
             </label>
             <label for="btnMenu" class="d-none opacity-0 filter-gray position-fixed top-0 right-0 left-0 bottom-0 transition-aside-label" id="label-aside"></label>
-            <nav class="bg-blue-4 d-flex flex-column position-fixed top-0 bottom-0 left-nav w-nav transition-nav d-lg-block position-lg-unset w-lg-auto h-lg-auto bg-lg-transparent align-self-lg-center ml-lg-6" id="nav">
+            <nav class="bg-blue-4 d-flex flex-column position-fixed top-0 bottom-0 left-nav w-nav transition-nav flex-lg-row position-lg-unset w-lg-auto h-lg-auto bg-lg-transparent" id="nav">
                 <label for="btnMenu" class="align-self-end p-3 mb-0 d-lg-none">
-                    <i class="fas fa-times color-white h6 mb-0"></i>
+                    <i class="fas fa-times text-white h6 mb-0"></i>
                 </label>
-                <ul class="list-unstyled font-size-6 font-weight-600 d-flex flex-column pt-4 flex-lg-row mb-0 pt-lg-0">
-                    <li><a class="transition-menu-link color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="../index.html">Inicio</a></li>
-                    <li><a class="transition-menu-link color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./empresa.html">Empresa</a></li>
-                    <li><a class="transition-menu-link color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./equipo.html">Equipo</a></li>
-                    <li><a class="transition-menu-link color-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./obras.html">Obras</a></li>
-                    <li><a class="transition-menu-link menu-link-active px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 d-block text-decoration-none menu-link-hover menu-link-hover-lg" href="./contacto.html">Contacto</a></li>
-                </ul>
+                <span class="color-semi-white font-size-3 font-weight-600 cursor-pointer order-1 px-6 mt-5 font-size-lg-1 align-self-lg-end order-lg-0 pr-lg-0 pl-lg-2 mt-lg-0" id="dropdown">
+                    <span class="pl-lg-2">EN
+                        <i class="fas fa-globe-americas"></i>
+                    </span>
+                    <div class="d-none position-absolute bg-blue-4 pt-1" id="dropdown-content">
+                        <a class="color-semi-white font-size-3 text-decoration-none d-block idiom-hover pl-2 pr-4 py-2 font-size-lg-1" href="../es/contacto.html">Spanish</a>
+                        <a class="color-semi-white font-size-3 text-decoration-none d-block idiom-hover pl-2 pr-4 py-2 font-size-lg-1" href="./contact.html">English</a>
+                    </div>
+                </span>
+                <div class="font-size-6 font-weight-600 transition-menu-link d-flex flex-column pt-4 mb-0 flex-lg-row pt-lg-0 ml-lg-5">
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./home.html">Home</a>
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./company.html">Company</a>
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./team.html">Team</a>
+                    <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./works.html">Works</a>
+                    <a class="menu-link-active px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./contact.html">Contact</a>
+                </div>
             </nav>
-            <a class="align-self-center mr-3" href="../index.html">
+            <a class="mr-3" href="../home.html">
                 <img class="w-logo" src="../media/serner-logo.png" alt="serner-logo">
             </a>
         </header>
 
         <!-- Contacto banner -->
         <div class="w-100 h-banner-2 bg-banner-contacto bg-size-cover bg-position-center d-flex justify-content-center align-items-center">
-            <h1 class="text-white" data-aos="fade-up">Contacto</h1>
+            <h1 class="text-white" data-aos="fade-up">Contact</h1>
         </div>
 
         <div class="container mb-4">
@@ -61,7 +70,7 @@
                     <div class="d-flex font-size-7">
                         <div class="row">
                             <div class="col-12 col-md-6" data-aos="fade-up">
-                                <h4>Datos de contacto</h4>
+                                <h4>Contact information</h4>
                                 <div class="mb-2">
                                     <i class="far fa-envelope d-inline"></i>
                                     <p class="d-inline">info@serner.com.ar</p>
@@ -70,10 +79,10 @@
                                     <i class="fas fa-phone-alt d-inline"></i>
                                     <p class="d-inline">+54 (011) 6689-8678</p>
                                 </div>
-                                <p>Lunes a Viernes: 8 a 19 hs</p>
+                                <p>Monday to Friday: 8 a.m. to 7 p.m.</p>
                             </div>
                             <div class="col-12 col-md-6" data-aos="fade-up">
-                                <h4>Nuestra oficina principal</h4>
+                                <h4>Our main office</h4>
                                 <div class="mb-3">
                                     <i class="fas fa-map-marker-alt d-inline"></i>
                                     <p class="d-inline">Ciudad de la Paz 3435, CABA, Buenos Aires, Argentina</p>
@@ -87,25 +96,25 @@
                 <!--            Consultas            -->
                 <form class="col-12 col-lg-6 pl-md-3 d-flex flex-column">
                     <span class="anchor d-block visibility-hidden" id="consultas"></span>
-                    <h4 data-aos="fade-up">Consultas</h4>
-                    <p data-aos="fade-up" class="font-size-7">Podes hacernos cualquier consulta a traves de nuestro numero de telefono, mail o completando este formulario</p>
+                    <h4 data-aos="fade-up">Inquiries</h4>
+                    <p data-aos="fade-up" class="font-size-7">You can make any inquiry through our phone number, mail or by filling out this form</p>
                     <div class="row no-gutters">
                         <div class="col-12 mb-3 col-lg-6 pr-lg-2" data-aos="fade-up">
-                            <input class="w-100 font-size-7 form-control" type="text" name="nombre" placeholder="Nombre *">
+                            <input class="w-100 font-size-7 form-control" type="text" name="nombre" placeholder="First name *">
                         </div>
                         <div class="col-12 mb-3 col-lg-6 pl-lg-2" data-aos="fade-up">
-                            <input class="w-100 font-size-7 form-control" type="text" name="apellido" placeholder="Apellido *">
+                            <input class="w-100 font-size-7 form-control" type="text" name="apellido" placeholder="Last name *">
                         </div>
                         <div class="col-12 mb-3 col-lg-6 pr-lg-2" data-aos="fade-up">
                             <input class="w-100 font-size-7 form-control" type="text" name="email" placeholder="Email *">
                         </div>
                         <div class="col-12 mb-3 col-lg-6 pl-lg-2" data-aos="fade-up">
-                            <input class="w-100 font-size-7 form-control" type="text" name="telefono" placeholder="Telefono *">
+                            <input class="w-100 font-size-7 form-control" type="text" name="telefono" placeholder="Phone *">
                         </div>
                     </div>
-                    <input class="w-100 font-size-7 mb-3 form-control" data-aos="fade-up" type="text" name="asunto" placeholder="Asunto *">
-                    <textarea class="w-100 h-min-1 flex-grow-1 font-size-7 mb-3 form-control" data-aos="fade-up" name="consultaArea" id="consultaArea" placeholder="Escriba su consulta"></textarea>
-                    <input class="btn btn-outline-primary btn-block font-size-7" data-aos="fade-up" type="submit" value="Enviar">
+                    <input class="w-100 font-size-7 mb-3 form-control" data-aos="fade-up" type="text" name="asunto" placeholder="Subject *">
+                    <textarea class="w-100 h-min-1 flex-grow-1 font-size-7 mb-3 form-control" data-aos="fade-up" name="consultaArea" id="consultaArea" placeholder="Write your query"></textarea>
+                    <input class="btn btn-outline-primary btn-block font-size-7" data-aos="fade-up" type="submit" value="Send">
                 </form>
             </div>
         </div>
@@ -113,20 +122,20 @@
         <!--            Empleos            -->
         <div class="container mb-4" data-aos="fade-up">
             <span class="anchor d-block visibility-hidden" id="empleos"></span>
-            <h4>Empleos</h4>
-            <p class="font-size-7">Para aplicar a un puesto en Serner, envíanos tu CV y carta de presentacion a info@serner.com.ar</p>
+            <h4>Jobs</h4>
+            <p class="font-size-7">To apply for a position at Serner, send your CV and cover letter to info@serner.com.ar</p>
         </div>
         
         <!--            Footer            -->
-        <footer class="container-fluid bg-black text-white font-size-5 p-3 d-flex flex-wrap justify-content-between">
-            <div class="d-flex flex-wrap m-2">
-                <div class="mr-4 font-weight-600">
-                    <a class="text-light text-decoration-none d-block mb-2" href="./empresa.html#quienes-somos">Sobre nosotros</a>
-                    <a class="text-light text-decoration-none d-block mb-2" href="./equipo.html#equipo">Nuestro equipo</a>
-                    <a class="text-light text-decoration-none d-block mb-2" href="./contacto.html#empleos">Empleos</a>
-                    <a class="text-light text-decoration-none d-block mb-2" href="./contacto.html#consultas">Consultas</a>
+        <footer class="container-fluid bg-black text-white font-size-5 d-flex flex-wrap justify-content-between p-3">
+            <div class="font-weight-600 d-flex flex-wrap m-2">
+                <div class="mr-4">
+                    <a class="text-light text-decoration-none d-block mb-2" href="./company.html#quienes-somos">About us</a>
+                    <a class="text-light text-decoration-none d-block mb-2" href="./team.html#equipo">Our team</a>
+                    <a class="text-light text-decoration-none d-block mb-2" href="./contact.html#empleos">Jobs</a>
+                    <a class="text-light text-decoration-none d-block mb-2" href="./contact.html#consultas">Inquiries</a>
                 </div>
-                <div class="font-weight-600">
+                <div>
                     <div class="mb-2">
                         <i class="fas fa-phone-alt d-inline"></i>
                         <p class="d-inline">+54 (011) 6689-8678</p>
@@ -142,10 +151,10 @@
                 </div>
             </div>
             <div class="m-2">
-                <a class="mr-lg-4" href="../index.html">
+                <a class="mr-lg-4" href="./home.html">
                     <img class="w-logo-2" src="../media/serner-logo.png" alt="serner-logo">
                 </a>
-                <p class="text-light mb-0">Pagina creada por Ramiro Gómez</p>
+                <p class="text-light mb-0">Website made by Ramiro Gómez</p>
             </div>
         </footer>
 	</body>

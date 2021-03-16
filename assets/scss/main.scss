@@ -37,7 +37,14 @@ html {
 .bg-blue-4 {
     background-color: #1b262c;
 }
+.color-semi-white {
+    color: hsla(0, 0%, 90%, 0.9);
+}
 
+.idiom-hover:hover {
+    color: #fff;
+    background-color: #0f4c75;
+}
 .menu-link-active {
     color: #3e96fe;
 }
@@ -87,6 +94,9 @@ html {
 .font-size-7 {
     font-size: 1.3rem;
 }
+.font-size-8 {
+    font-size: 0.95rem;
+}
 .font-weight-600 {
     font-weight: 600;
 }
@@ -127,6 +137,9 @@ html {
 }
 .opacity-0 {
     opacity: 0;
+}
+.cursor-pointer {
+    cursor: pointer;
 }
 //overflow-x-hidden contraresta los margenes derechos generados por data-aos="fade-left"
 .overflow-x-hidden {
@@ -191,7 +204,7 @@ html {
 .h-img-equipo {
     height: 14rem;
 }
-.h-img-maquinaria {
+.h-img-equipamiento {
     height: 15rem;
 }
 .h-min-1 {
@@ -208,9 +221,6 @@ html {
 }
 .w-btn {
     width: 10.3rem;
-}
-.w-maquinaria-img {
-    width: 18.75rem;
 }
 
 .bg-banner-home-1 {
@@ -257,6 +267,10 @@ html {
     display: block;
 }
 
+#dropdown:hover #dropdown-content {
+    display: block !important;
+}
+
 .counter::before{
     content: "+";
 }
@@ -295,6 +309,9 @@ html {
 @media (min-width: map-get($bs-breakpoints, lg)) {
     :root {
         font-size: 16px;
+    }
+    .font-size-lg-1 {
+        font-size: 0.95rem;
     }
     .position-lg-unset {
         position: unset !important;
