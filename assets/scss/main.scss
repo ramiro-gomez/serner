@@ -14,7 +14,6 @@ $bs-breakpoints: (
 :root {
     font-size: 12px;
 }
-
 html {
     scroll-behavior: smooth;
 }
@@ -41,6 +40,44 @@ html {
     color: hsla(0, 0%, 90%, 0.9);
 }
 
+.font-size-1 {
+    font-size: 1.1rem;
+}
+.font-size-2 {
+    font-size: 1.2rem;
+}
+.font-size-3 {
+    font-size: 1.25rem;
+}
+.font-size-4 {
+    font-size: 1.3rem;
+}
+.font-size-5 {
+    font-size: 1.45rem;
+}
+.font-size-6 {
+    font-size: 3rem;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.px-6 {
+    padding-left: 2.3rem; padding-right: 2.3rem;
+}
+.px-7 {
+    padding-left: .75rem; padding-right: .75rem;
+}
+.px-8 {
+    padding-left: 4rem; padding-right: 4rem;
+}
+.border-2 {
+    border: 2px solid;
+}
+
+.scale-img-hover:hover img {
+    transform: scale(1.1, 1.1);
+}
+
 .idiom-hover:hover {
     color: #fff;
     background-color: #0f4c75;
@@ -52,7 +89,6 @@ html {
     color: #3e96fe !important;
     background-color: #0056b34d;
 }
-
 .btn-blue {
     color: #fff;
     background-color: #134f94;
@@ -73,46 +109,6 @@ html {
     }
 }
 
-.font-size-1 {
-    font-size: 1.25rem;
-}
-.font-size-2 {
-    font-size: 1.45rem;
-}
-.font-size-3 {
-    font-size: 1.1rem;
-}
-.font-size-4 {
-    font-size: 3rem;
-}
-.font-size-5 {
-    font-size: 1rem;
-}
-.font-size-6 {
-    font-size: 1.2rem;
-}
-.font-size-7 {
-    font-size: 1.3rem;
-}
-.font-size-8 {
-    font-size: 0.95rem;
-}
-.font-weight-600 {
-    font-weight: 600;
-}
-.px-6 {
-    padding-left: 2.3rem; padding-right: 2.3rem;
-}
-.px-7 {
-    padding-left: .75rem; padding-right: .75rem;
-}
-.px-8 {
-    padding-left: 4rem; padding-right: 4rem;
-}
-
-.border-2 {
-    border: 2px solid;
-}
 
 .bg-size-cover {
     background-size: cover;
@@ -120,17 +116,17 @@ html {
 .bg-position-center {
     background-position: center;
 }
-.object-fit-cover {
-    object-fit: cover;
-}
-.object-position-top {
-    object-position: top;
-}
 .w-fit-content {
     width: fit-content;
 }
 .w-90 {
     width: 90%;
+}
+.object-fit-cover {
+    object-fit: cover;
+}
+.object-position-top {
+    object-position: top;
 }
 .visibility-hidden {
     visibility: hidden;
@@ -145,7 +141,6 @@ html {
 .overflow-x-hidden {
     overflow-x: hidden;
 }
-
 .top-0 {
     top: 0;
 }
@@ -158,6 +153,7 @@ html {
 .bottom-0 {
     bottom: 0;
 }
+
 .bottom-banner {
     bottom: 30%;
 }
@@ -167,21 +163,6 @@ html {
 .bottom-btn {
     bottom: 15%;
 }
-
-
-.transition-nav {
-    transition: left .4s ease .2s;
-}
-.transition-menu-link {
-    transition: all .15s ease;
-}
-.transition-aside-label {
-    transition: opacity .3s ease;
-}
-.transition-scale {
-    transition: transform .8s ease;
-}
-
 
 .h-header {
     height: $h-header;
@@ -198,7 +179,7 @@ html {
 .h-preview-obra {
     height: 12rem;
 }
-.h-img-obra{
+.h-img-obra {
     height: 15rem;
 }
 .h-img-equipo {
@@ -223,8 +204,24 @@ html {
     width: 10.3rem;
 }
 
+.transition-nav {
+    transition: left .4s ease .2s;
+}
+.transition-menu-link {
+    transition: all .15s ease;
+}
+.transition-aside-label {
+    transition: opacity .3s ease;
+}
+.transition-scale {
+    transition: transform .8s ease;
+}
+.transition-overlay {
+    transition: .5s ease;
+}
+
 .bg-banner-home-1 {
-    background-image: linear-gradient(to top, $filter-gray-2, $filter-gray-2 100%), url(../../media/banner-home-1.jpg);
+    background-image: linear-gradient(to top, $filter-gray-3, $filter-gray-3 100%), url(../../media/banner-home-1.jpg);
 }
 .bg-banner-home-2 {
     background-image: linear-gradient(to top, $filter-gray-1, $filter-gray-1 100%), url(../../media/banner-home-2.jpg);
@@ -255,7 +252,7 @@ html {
     background-image: linear-gradient(to top, $filter-dark-blue, $filter-dark-blue 100%), url(../../media/valores.jpg);
 }
 
-
+//      Menu lateral responsive
 #btnMenu:checked ~ #nav {
     left: 0;
 }
@@ -267,26 +264,24 @@ html {
     display: block;
 }
 
+//      Menu de idioma desplegable
 #dropdown:hover #dropdown-content {
     display: block !important;
 }
 
-.counter::before{
-    content: "+";
+//      Efecto overlay
+#overlay-container:hover #overlay {
+    opacity: 1;
 }
 
+//      Ancla para que los enlaces internos terminen debajo del header
 .anchor {
     height: $h-header; margin-top: -$h-header;
 }
 
-.overlay {
-    transition: .5s ease;
-}
-.overlay-container:hover .overlay {
-    opacity: 1;
-}
-.scale-img-hover:hover img {
-    transform: scale(1.1, 1.1);
+// '+' del contador en inicio
+.counter::before{
+    content: "+";
 }
 
 @media (min-width: map-get($bs-breakpoints, sm)) {
@@ -316,6 +311,9 @@ html {
     .position-lg-unset {
         position: unset !important;
     }
+    .bg-lg-transparent {
+        background-color: transparent;
+    }
     .bottom-banner {
         bottom: 40%;
     }
@@ -328,12 +326,10 @@ html {
     .h-lg-100 {
         height: 100%;
     }
-    .h-lg-img-obra{
+    .h-img-obra{
         height: 18rem;
     }
-    .bg-lg-transparent {
-        background-color: transparent;
-    }
+    
     .menu-link-hover:hover {
         color: #3e96fe!important;
         background-color: transparent;

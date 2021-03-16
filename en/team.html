@@ -35,16 +35,16 @@
                 <label for="btnMenu" class="align-self-end p-3 mb-0 d-lg-none">
                     <i class="fas fa-times text-white h6 mb-0"></i>
                 </label>
-                <span class="color-semi-white font-size-3 font-weight-600 cursor-pointer order-1 px-6 mt-5 font-size-lg-1 align-self-lg-end order-lg-0 pr-lg-0 pl-lg-2 mt-lg-0" id="dropdown">
+                <span class="color-semi-white font-size-1 font-weight-600 cursor-pointer order-1 px-6 mt-5 font-size-lg-1 align-self-lg-end order-lg-0 pr-lg-0 pl-lg-2 mt-lg-0" id="dropdown">
                     <span class="pl-lg-2">EN
                         <i class="fas fa-globe-americas"></i>
                     </span>
                     <div class="d-none position-absolute bg-blue-4 pt-1" id="dropdown-content">
-                        <a class="color-semi-white font-size-3 text-decoration-none d-block idiom-hover pl-2 pr-4 py-2 font-size-lg-1" href="../es/equipo.html">Spanish</a>
-                        <a class="color-semi-white font-size-3 text-decoration-none d-block idiom-hover pl-2 pr-4 py-2 font-size-lg-1" href="./team.html">English</a>
+                        <a class="color-semi-white font-size-1 text-decoration-none d-block idiom-hover pl-2 pr-4 py-2 font-size-lg-1" href="../es/equipo.html">Spanish</a>
+                        <a class="color-semi-white font-size-1 text-decoration-none d-block idiom-hover pl-2 pr-4 py-2 font-size-lg-1" href="./team.html">English</a>
                     </div>
                 </span>
-                <div class="font-size-6 font-weight-600 transition-menu-link d-flex flex-column pt-4 mb-0 flex-lg-row pt-lg-0 ml-lg-5">
+                <div class="font-size-2 font-weight-600 transition-menu-link d-flex flex-column pt-4 mb-0 flex-lg-row pt-lg-0 ml-lg-5">
                     <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./home.html">Home</a>
                     <a class="text-white px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./company.html">Company</a>
                     <a class="menu-link-active px-6 py-2 px-lg-0 py-lg-0 mr-lg-4 text-decoration-none menu-link-hover" href="./team.html">Team</a>
@@ -64,7 +64,7 @@
 
         <!--            Equipo            -->
         <span class="anchor d-block visibility-hidden" id="equipo"></span>
-        <div class="container font-size-7 mt-5">
+        <div class="container font-size-4 mt-5">
             <div class="row overflow-x-hidden">
                 <img class="col-12 col-lg-3 mb-2 h-img-equipo h-lg-auto object-fit-cover object-position-top" data-aos="fade-right" src="../media/equipo.jpg" alt="equipo-img">
                 <div class="col-12 col-lg-9" data-aos="fade-left">
@@ -80,7 +80,7 @@
 
         <!--            Equipamiento            -->
         <span class="anchor d-block visibility-hidden" id="equipamiento"></span>
-        <div class="container font-size-7 mt-4 mb-5">
+        <div class="container font-size-4 mt-4 mb-5">
             <h2 class="text-center mb-3" data-aos="fade-down">Equipment</h2>
             <p data-aos="fade-down">We have 60 high performance machines accompanied by expert machinists and mechanics of great experience, which allows us to perform various activities such as:</p>
             <div class="d-flex flex-wrap flex-md-nowrap justify-content-md-around mb-4" data-aos="fade-down">
@@ -105,27 +105,27 @@
                     <li>Ditching</li>
                 </ul>
             </div>
-            <div class="row text-white text-center font-size-6 font-weight-600 overflow-x-hidden">
+            <div class="row text-white text-center font-size-2 font-weight-600 overflow-x-hidden">
                 <div class="col-md-4 mb-4 mb-lg-0" data-aos="fade-left">
-                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                    <div class="position-relative scale-img-hover overflow-hidden" id="overlay-container">
                         <img class="w-100 h-img-equipamiento h-md-auto object-fit-cover transition-scale" src="../media/equipamiento-1.jpg" alt="Aplanadora de rodillo">
-                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                        <div class="transition-overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2" id="overlay">
                             <p>Roller leveler<br>Brand: Caterpillar<br>Model: CS12 GC</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4 mb-lg-0">
-                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                    <div class="position-relative scale-img-hover overflow-hidden" id="overlay-container">
                         <img class="w-100 h-img-equipamiento h-md-auto object-fit-cover transition-scale" src="../media/equipamiento-2.jpg" alt="Pala escavadora">
-                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                        <div class="transition-overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2" id="overlay">
                             <p>Excavator shovel<br>Brand: Hitachi<br>Model: ZX130-5G</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-3 mb-lg-0" data-aos="fade-right">
-                    <div class="overlay-container position-relative scale-img-hover overflow-hidden">
+                    <div class="position-relative scale-img-hover overflow-hidden" id="overlay-container">
                         <img class="w-100 h-img-equipamiento h-md-auto object-fit-cover transition-scale" src="../media/equipamiento-3.jpg" alt="Tractor topador">
-                        <div class="overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2">
+                        <div class="transition-overlay filter-gray position-absolute top-0 h-100 w-100 opacity-0 d-flex align-items-center justify-content-center px-2" id="overlay">
                             <p>Dozer Tractor<br>Brand: Caterpillar<br>Model: D5</p>
                         </div>
                     </div>
@@ -134,7 +134,7 @@
         </div>
 
         <!--            Footer            -->
-        <footer class="container-fluid bg-black text-white font-size-5 d-flex flex-wrap justify-content-between p-3">
+        <footer class="container-fluid bg-black text-white d-flex flex-wrap justify-content-between p-3">
             <div class="font-weight-600 d-flex flex-wrap m-2">
                 <div class="mr-4">
                     <a class="text-light text-decoration-none d-block mb-2" href="./company.html#quienes-somos">About us</a>
