@@ -22,8 +22,17 @@
     <body>
         <script>
             AOS.init({
+                //AOS config
                 duration: 800,
                 once: true
+            });
+
+            //JQuery CounterUP
+            $(document).ready(function(){
+                $('.counter').counterUp({
+                    delay: 5,
+                    time: 1450
+                });
             });
         </script>
 
@@ -220,11 +229,11 @@
                 <div>
                     <div class="mb-2">
                         <i class="fas fa-phone-alt d-inline"></i>
-                        <p class="d-inline">+54 (011) 6689-8678</p>
+                        <a class="d-inline text-white cursor-pointer text-decoration-none" href="tel: +54-011-6689-8678">+54 (011) 6689-8678</a>
                     </div>
                     <div class="mb-2">
                         <i class="far fa-envelope d-inline"></i>
-                        <p class="d-inline">info@serner.com.ar</p>
+                        <a class="d-inline text-white cursor-pointer text-decoration-none" href="mailto: info@serner.com.ar">info@serner.com</a>
                     </div>
                     <div class="mb-2">
                         <i class="fas fa-map-marker-alt d-inline"></i>
@@ -239,14 +248,5 @@
                 <p class="text-light mb-0">Sitio web creado por Ramiro Gómez</p>
             </div>
         </footer>
-
-        <script>
-        $(document).ready(function(){
-        $('.counter').counterUp({
-            delay: 5,
-            time: 1450
-        });
-        });
-        </script>
     </body>
 </html>
