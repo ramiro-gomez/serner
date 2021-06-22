@@ -4,6 +4,9 @@
 html {
   scroll-behavior: smooth; }
 
+body {
+  font-family: "Selawik", sans-serif; }
+
 .filter-gray {
   background-color: rgba(69, 69, 69, 0.4); }
 
@@ -180,7 +183,7 @@ html {
   width: 17rem; }
 
 .w-btn {
-  width: 10.3rem; }
+  width: 10.4rem; }
 
 .transition-nav {
   transition: left .4s ease .2s; }

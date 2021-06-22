@@ -17,6 +17,9 @@ $bs-breakpoints: (
 html {
     scroll-behavior: smooth;
 }
+body {
+    font-family: "Selawik", sans-serif;
+}
 
 .filter-gray {
     background-color: $filter-gray-1;
@@ -201,7 +204,7 @@ html {
     width: 17rem;
 }
 .w-btn {
-    width: 10.3rem;
+    width: 10.4rem;
 }
 
 .transition-nav {
