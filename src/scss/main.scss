@@ -140,7 +140,9 @@ body {
 .cursor-pointer {
     cursor: pointer;
 }
-//overflow-x-hidden contraresta los margenes derechos generados por data-aos="fade-left"
+.pointer-events-none {
+    pointer-events: none;
+}
 .overflow-x-hidden {
     overflow-x: hidden;
 }
